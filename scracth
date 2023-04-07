@@ -1,0 +1,73 @@
+print(jellyfish.levenshtein_distance('tylko', 'samo'))
+print(jellyfish.levenshtein_distance('tylko', 'le'))
+print(jellyfish.levenshtein_distance('tylko', 'toliko'))
+print('/n')
+print(jellyfish.jaro_winkler_similarity('tylko', 'samo'))
+print(jellyfish.jaro_winkler_similarity('tylko', 'le'))
+print(jellyfish.jaro_winkler_similarity('tylko', 'toliko'))
+print('/n')
+print(jellyfish.damerau_levenshtein_distance('tylko', 'samo'))
+print(jellyfish.damerau_levenshtein_distance('tylko', 'le'))
+print(jellyfish.damerau_levenshtein_distance('tylko', 'toliko'))
+
+4
+4
+2
+/n
+0.48333333333333334
+0.0
+0.8400000000000001
+/n
+4
+4
+2
+
+
+
+PATH = os.path.dirname(sys.argv[0])
+
+with open("isvwords.json") as f:
+    d = json.load(f)
+  #  print(d)
+
+print(d[123]['pl'])
+
+
+data_file = open("pl_pud-ud-train.conllu", "r", encoding="utf-8")
+for tokenlist in conllu.parse_incr(data_file):
+
+    wordcount = 0
+    isvwordcount = 0
+    print(tokenlist)
+
+    for token in tokenlist:
+        
+
+        
+
+        if token["form"] not in string.punctuation:
+
+            wordcount = wordcount+1
+
+
+
+
+
+        for meow in d:
+            if token["lemma"] == meow["pl"]:
+                print(token["lemma"],' ', token["form"],' ', meow["isv"])
+                isvwordcount = isvwordcount+1
+
+
+        
+
+    #    print('  ')
+
+    print(f"WORDS IN SENTENCE: {wordcount}")
+    print(f"ISV WORDS IN SENTENCE: {isvwordcount}")
+
+   # print(tokenlist[0]["lemma"])
+    print('\n')
+
+
+
