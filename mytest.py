@@ -7,7 +7,7 @@ import string
 import json
 import jellyfish
 from isv_nlp_utils import constants
-import udapi
+#import udapi
 
 PATH = os.path.dirname(sys.argv[0])
 
@@ -36,8 +36,8 @@ for tokenlist in conllu.parse_incr(data_file):
         token_xpos = token["xpos"] 
         token_feats = token["feats"]
         token_deprel = token["deprel"]
-       # print(token_deprel, token_feats, token_upos, token_xpos)
-        print(token_lemma, token["form"], token_upos, token_feats)
+
+        print(token_lemma, token["form"], token_upos, token_feats, token_xpos, token_deprel)
         
         
         
@@ -46,54 +46,90 @@ for tokenlist in conllu.parse_incr(data_file):
 
         if token["form"] not in string.punctuation:
 
-            wordcount = wordcount+1
+          wordcount = wordcount+1
+          token_verbtype = None
+          processed_token_feats = set()
+          token_aspect = None
+          token_person = None
+          token_verbform = None
+          token_gender = None
+          token_tense = None
+          token_verbtype = None
+          token_number = None
+          token_mood = None
+          token_case = None
+          token_animacy = None
 
-        if token_upos == "NOUN":
+        print(f"token_feats::::::: {token_feats}")
+        if token_feats is not None:
+          if "Case" in token_feats:
 
-          if token_feats["Case"] == 'Gen': token_case = 'gent'
-          elif token_feats["Case"] == 'Acc': token_case = 'accs'
-          elif token_feats["Case"] == 'Loc': token_case = 'loct'
-          elif token_feats["Case"] == 'Dat': token_case = 'datv'
-          elif token_feats["Case"] == 'Nom': token_case = 'nomn'
-          elif token_feats["Case"] == 'Ins': token_case = 'inst'
-          elif token_feats["Case"] == 'Abl': token_case = 'ablt'
-          else: token_case = token_feats["Case"].lower()
-          token_gender = token_feats["Gender"].lower()
-          token_number = token_feats["Number"].lower()
-     #     print(token_case)
-       #   print(token_number)
+
+            if token_feats["Case"] == 'Gen': token_case = 'gent'
+            elif token_feats["Case"] == 'Acc': token_case = 'accs'
+            elif token_feats["Case"] == 'Loc': token_case = 'loct'
+            elif token_feats["Case"] == 'Dat': token_case = 'datv'
+            elif token_feats["Case"] == 'Nom': token_case = 'nomn'
+            elif token_feats["Case"] == 'Ins': token_case = 'inst'
+            elif token_feats["Case"] == 'Abl': token_case = 'ablt'
+            elif token_feats["Case"] == 'Voc': token_case = 'voct'
+
+            else: token_case = token_feats["Case"].lower()
+      
           if "Animacy" in token_feats:
-            token_animacy = token_feats["Animacy"].lower()
-       #     print(token_animacy)
+    
+            if token_feats["Animacy"] =="Hum": token_animacy = "anim"
+            elif token_feats["Animacy"] =="Inan": token_animacy = "inan"
+            elif token_feats["Animacy"] =="Nhum": token_animacy = "inan"
 
-        if token_upos == "VERB":
-          token_verbtype = ""
-          
+
+
+
+
+
+          # {token_aspect, token_person, token_verbform, token_gender, token_tense, token_verbtype, token_number, token_mood}
 
           if "Aspect" in token_feats:
 
-            if token_feats["Aspect"] == "Imp": token_aspect = "impf"
-            elif token_feats["Aspect"] == "Perf": token_aspect = "perf"
-          if "Person" in token_feats: token_person = token_feats["Person"] + 'per' 
+              if token_feats["Aspect"] == "Imp": token_aspect = "impf"
+              elif token_feats["Aspect"] == "Perf": token_aspect = "perf"
+          if "Person" in token_feats: token_person = token_feats["Person"] + 'per'
           if "VerbForm" in token_feats: 
-            if token_feats["VerbForm"] == "Inf": token_verbform = "infn"
-            if token_feats["VerbForm"] == "Fin": token_verbform = "fin"
+              if token_feats["VerbForm"] == "Inf": token_verbform = "infn"
+              if token_feats["VerbForm"] == "Fin": token_verbform = "fin"
           if "Gender" in token_feats:
-            if token_feats["Gender"] == "Fem": token_gender = "femn"
-            else: token_gender = token_feats["Gender"].lower()
+              if token_feats["Gender"] == "Fem": token_gender = "femn"
+              else: token_gender = token_feats["Gender"].lower()
           if "Tense" in token_feats:
-            token_tense = token_feats["Tense"].lower() 
+              token_tense = token_feats["Tense"].lower() 
           if "VerbType" in token_feats:
-            token_verbtype = token_feats["VerbType"] 
+              token_verbtype = token_feats["VerbType"] 
+          if "Number" in token_feats:
+              token_number = token_feats["Number"].lower() 
+          if "Mood" in token_feats:
+              if token_feats["Mood"] == "Imp": token_mood = "impr"
+              elif token_feats["Mood"] == "Cnd": token_mood = "cond"
+              
+
+          #    else: token_mood = token_feats["Mood"].lower() 
+
+
+          for x in {token_aspect, token_person, token_verbform, token_gender, token_tense, token_verbtype, token_number, token_mood, token_case, token_animacy}:
+              if x is not None:
+                processed_token_feats.add(x)
+
+            
 
 
 
 
         for isvword in isvwords:
             
-            if (token_lemma == isvword["pl"]) and (' ' not in isvword["isv"]):
+            if (token["form"] == isvword["pl"]) and (' ' not in isvword["isv"]): token["form"] = isvword["isv"]
+            elif (token_lemma == isvword["pl"]) and (' ' not in isvword["isv"]):
            #     print(token_lemma, token["form"], token_upos, token_feats)
                 isvhit =1
+                #ON FIRST ISV HIT CONVERT POLISH ORTHOGRAPHY OF LEMMA TO INTERSLAVIC FOR BETTER JARO WINKLER
 #ADD: USE ALL POSSIBLE matched isv words instead of just the most similar                
                 if jellyfish.jaro_winkler_similarity(token_lemma, isvword["isv"]) >= isvsimilarity:
               #      print(jellyfish.jaro_winkler_similarity(token["lemma"] , isvword["isv"]))
@@ -101,31 +137,51 @@ for tokenlist in conllu.parse_incr(data_file):
                     parses = morph.parse(token["lemma"])
 
                     if token_upos == "NOUN":
-                      #for pos in parses
-                      if "VerbForm" in token_feats:
-                        try: token["form"] = constants.inflect_carefully(morph, parses[0], {token_case, token_gender,token_number, "V2NOUN"})[0]
-                        except: token["form"] = constants.inflect_carefully(morph, parses[1], {token_case, token_gender,token_number, "V2NOUN"})[0]
-                      else:
+                      proper_parse = None
 
-                        try: token["form"] = constants.inflect_carefully(morph, parses[0], {token_upos, token_case, token_gender,token_number})[0]
-                        except: token["form"] = constants.inflect_carefully(morph, parses[1], {token_upos, token_case, token_gender,token_number})[0]
+                      if "VerbForm" in token_feats:
+                        token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
+                        
+                      else:
+                        for parse in parses:
+                          print(parse)
+                          if "NOUN" in parse[1]: 
+                            proper_parse = parse
+                            print(proper_parse)
+                            print("meow")
+                          if proper_parse == None:
+                            proper_parse =parses[0]
+
+                        token["form"] = constants.inflect_carefully(morph, proper_parse, {token_upos, token_case, token_gender,token_number})[0]
+
 #FIX: VERBS SUCH AS odzyskać WHICH HAVE WEIRD ISV TRANSLATIONS SUCH AS iziskati ponovno
                     if token_upos == "VERB" :
+                      proper_parse = None
+                      print(tokenlist.serialize())  
                       if token_feats["VerbForm"] == "Inf": token["form"] = constants.inflect_carefully(morph, parses[0], {token_verbform})[0]
-                      elif (token_feats["VerbForm"] == "Fin") and (token_feats["Tense"] == "Pres") and (token_verbtype !='Quasi'):
-                        try: token["form"] = constants.inflect_carefully(morph, parses[0], {token_person, token_tense, token_gender})[0]
-                        except: token["form"] = constants.inflect_carefully(morph, parses[1], {token_person, token_tense})[0]
-                      
+                      elif (token_verbtype !='Quasi'):
+                        for parse in parses:
+                          print(parse)
+                          if "VERB" in parse[1]: 
+                            proper_parse = parse
+                            print(proper_parse)
+                            print("meow")
+                        if proper_parse == None: 
+                          proper_parse = parses[0]
+                          try: token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
+                          except: token["form"] = constants.inflect_carefully(morph, parses[1], processed_token_feats)[0]
+
+                        token["form"] = constants.inflect_carefully(morph, proper_parse, processed_token_feats)[0]
 
 
-                    
+                     
 
                 
              #   print(token_lemma,' ', token["form"],' ', token["lemma"])
         if isvhit==1:
             isvwordcount = isvwordcount+1    
 
-    if (isvwordcount/wordcount) > .9:
+    if (isvwordcount/wordcount) > .5:
         print(tokenlist.serialize())  
 
     #    print('  ')
