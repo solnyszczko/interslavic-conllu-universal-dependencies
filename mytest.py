@@ -31,6 +31,12 @@ for tokenlist in conllu.parse_incr(data_file):
     for token in tokenlist:
         isvhit=0
         isvsimilarity=0
+
+        if token["lemma"] == 'sam': token["lemma"] = "samy"
+
+
+
+
         token_lemma = token["lemma"]
         token_upos = token["upos"]
         token_upos_fixed = None
@@ -42,9 +48,17 @@ for tokenlist in conllu.parse_incr(data_file):
         
         
         if token_upos == "ADJ": token_upos_fixed = "ADJF"
-        elif token_upos == "ADV": token_upos_fixed = "ADVB"
-        elif token_upos == "PART": token_upos_fixed = "PRCP"
+        elif token_upos == "DET": token_upos_fixed = "NPRO"
+        elif token_upos == "PRON": token_upos_fixed = "NPRO"
+        elif token_upos == "NUM": token_upos_fixed = "NUMR"
+        elif (token_upos == "AUX") and (token_xpos == "part"): token_upos_fixed = "PART"
+        elif (token_upos == "AUX") and (token_xpos != "part"): token_upos_fixed = "VERB"
+        
         else: token_upos_fixed = token_upos
+
+
+
+        
 
 
         
@@ -129,36 +143,40 @@ for tokenlist in conllu.parse_incr(data_file):
 
 
         for isvword in isvwords:
+            isvword["isv"].replace("#",'')
             
             if (token["form"] == isvword["pl"]) and (' ' not in isvword["isv"]): token["form"] = isvword["isv"]
             elif (token_lemma == isvword["pl"]) and (' ' not in isvword["isv"]):
            #     print(token_lemma, token["form"], token_upos, token_feats)
                 isvhit =1
                 #ON FIRST ISV HIT CONVERT POLISH ORTHOGRAPHY OF LEMMA TO INTERSLAVIC FOR BETTER JARO WINKLER
+
 #ADD: USE ALL POSSIBLE matched isv words instead of just the most similar                
                 if jellyfish.jaro_winkler_similarity(token_lemma, isvword["isv"]) >= isvsimilarity:
               #      print(jellyfish.jaro_winkler_similarity(token["lemma"] , isvword["isv"]))
                     token["lemma"] = isvword["isv"]
-                    parses = morph.parse(token["lemma"])
+
+                    if (token_upos_fixed != "ADV") and (token_upos_fixed != "PART") and (token_upos_fixed != "ADP") and (token_upos_fixed != "CCONJ") and (token_upos_fixed != "X") and (token_upos_fixed != "SCONJ") and (token_upos_fixed != "PROPN"):
+                      parses = morph.parse(token["lemma"])
 
 
-                    proper_parse = None
+                      proper_parse = None
 
-                    if "VerbForm" in token_feats:
-                        token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
+                      if "VerbForm" in token_feats:
+                          token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
 
-                        
-                    elif (token_verbtype !='Quasi'):
-                        for parse in parses:
-                          print(parse)
-                          if token_upos_fixed in parse[1]: 
-                            proper_parse = parse
-                            print(proper_parse)
-                            print("meow")
-                          if proper_parse == None:
-                            proper_parse =parses[0]
+                          
+                      elif (token_verbtype !='Quasi'):
+                          for parse in parses:
+                            print(parse)
+                            if token_upos_fixed in parse[1]: 
+                              proper_parse = parse
+                              print(proper_parse)
+                              print("meow")
+                            if proper_parse == None:
+                              proper_parse =parses[0]
 
-                        token["form"] = constants.inflect_carefully(morph, proper_parse, processed_token_feats)[0]
+                          token["form"] = constants.inflect_carefully(morph, proper_parse, processed_token_feats)[0]
 
 #FIX: VERBS SUCH AS odzyskać WHICH HAVE WEIRD ISV TRANSLATIONS SUCH AS iziskati ponovno
                    
