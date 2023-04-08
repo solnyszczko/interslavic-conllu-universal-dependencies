@@ -33,6 +33,10 @@ for tokenlist in conllu.parse_incr(data_file):
         isvsimilarity=0
 
         if token["lemma"] == 'sam': token["lemma"] = "samy"
+        if token["lemma"] == 'sę': token["lemma"] = "się"
+        if 'więcej' in token["lemma"]: token["upos"] = "PART"
+     #   if token["lemma"] == 'więcej': token["feats"] = None
+        
 
 
 
@@ -48,6 +52,7 @@ for tokenlist in conllu.parse_incr(data_file):
         
         
         if token_upos == "ADJ": token_upos_fixed = "ADJF"
+        elif "VERB" in token_upos: token_upos_fixed = "VERB"
         elif token_upos == "DET": token_upos_fixed = "NPRO"
         elif token_upos == "PRON": token_upos_fixed = "NPRO"
         elif token_upos == "NUM": token_upos_fixed = "NUMR"
@@ -78,9 +83,34 @@ for tokenlist in conllu.parse_incr(data_file):
           token_mood = None
           token_case = None
           token_animacy = None
+          token_voice = None
+          token_prontype = None
+          token_reflex = None
+          token_polarity = None
 
-        print(f"token_feats::::::: {token_feats}")
+      #  print(f"token_feats::::::: {token_feats}")
         if token_feats is not None:
+
+          if "Reflex" in token_feats:
+            if token_feats["Reflex"]=="Yes": token_reflex="Refl"
+
+          if "Polarity" in token_feats:
+            if token_feats["Polarity"]=="Neg": token_reflex="neg"
+
+
+          if "PronType" in token_feats:
+            if token_feats["PronType"]=="Int":token_prontype='int'
+            if token_feats["PronType"]=="Dem":token_prontype='dem'
+            if token_feats["PronType"]=="Rel":token_prontype='rel'
+            if token_feats["PronType"]=="Prs":token_prontype='pers'
+            if token_feats["PronType"]=="Ind":token_prontype='indef'
+
+
+
+          if "Voice" in token_feats:
+            if token_feats["Voice"] == "Act": token_voice = "actv"
+
+
           if "Case" in token_feats:
 
 
@@ -124,7 +154,9 @@ for tokenlist in conllu.parse_incr(data_file):
           if "VerbType" in token_feats:
               token_verbtype = token_feats["VerbType"] 
           if "Number" in token_feats:
-              token_number = token_feats["Number"].lower() 
+
+              if token_feats["Number"]=='Ptan': token_number="plur"
+              else: token_number = token_feats["Number"].lower() 
           if "Mood" in token_feats:
               if token_feats["Mood"] == "Imp": token_mood = "impr"
               elif token_feats["Mood"] == "Cnd": token_mood = "cond"
@@ -133,7 +165,7 @@ for tokenlist in conllu.parse_incr(data_file):
           #    else: token_mood = token_feats["Mood"].lower() 
 
 
-          for x in {token_aspect, token_person, token_verbform, token_gender, token_tense, token_verbtype, token_number, token_mood, token_case, token_animacy}:
+          for x in {token_aspect,token_reflex, token_case, token_gender, token_number,token_polarity, token_person, token_verbform, token_tense, token_verbtype, token_mood, token_animacy,token_voice,token_prontype}:
               if x is not None:
                 processed_token_feats.add(x)
 
@@ -145,38 +177,52 @@ for tokenlist in conllu.parse_incr(data_file):
         for isvword in isvwords:
             isvword["isv"].replace("#",'')
             
-            if (token["form"] == isvword["pl"]) and (' ' not in isvword["isv"]): token["form"] = isvword["isv"]
-            elif (token_lemma == isvword["pl"]) and (' ' not in isvword["isv"]):
+            
+            if (token_lemma == isvword["pl"]) and (' ' not in isvword["isv"]):
            #     print(token_lemma, token["form"], token_upos, token_feats)
                 isvhit =1
+                
                 #ON FIRST ISV HIT CONVERT POLISH ORTHOGRAPHY OF LEMMA TO INTERSLAVIC FOR BETTER JARO WINKLER
 
 #ADD: USE ALL POSSIBLE matched isv words instead of just the most similar                
                 if jellyfish.jaro_winkler_similarity(token_lemma, isvword["isv"]) >= isvsimilarity:
               #      print(jellyfish.jaro_winkler_similarity(token["lemma"] , isvword["isv"]))
                     token["lemma"] = isvword["isv"]
+                    #print("DESUSUSUSUSU")
+                    parses = morph.parse(token["lemma"])
 
-                    if (token_upos_fixed != "ADV") and (token_upos_fixed != "PART") and (token_upos_fixed != "ADP") and (token_upos_fixed != "CCONJ") and (token_upos_fixed != "X") and (token_upos_fixed != "SCONJ") and (token_upos_fixed != "PROPN"):
-                      parses = morph.parse(token["lemma"])
+
+                    proper_parse = []
+
+                    if (token_upos_fixed=="ADV") or (token_upos_fixed == "PART") or (token_upos_fixed == "ADP") or (token_upos_fixed == "CCONJ") or (token_upos_fixed == "X") or (token_upos_fixed == "SCONJ") or (token_upos_fixed == "PROPN") or ("ADVB" in parses[0][1]):
+                      token["form"] = token["lemma"]
+                    else:
 
 
-                      proper_parse = None
-
-                      if "VerbForm" in token_feats:
-                          token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
+                      #if "VerbForm" in token_feats:
+                      #    token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
 
                           
-                      elif (token_verbtype !='Quasi'):
-                          for parse in parses:
-                            print(parse)
-                            if token_upos_fixed in parse[1]: 
-                              proper_parse = parse
-                              print(proper_parse)
-                              print("meow")
-                            if proper_parse == None:
-                              proper_parse =parses[0]
+                      if (token_verbtype !='Quasi'):
+                          
+                            for parse in parses:
+                         #     print(parse) 
 
-                          token["form"] = constants.inflect_carefully(morph, proper_parse, processed_token_feats)[0]
+                              if proper_parse == []:
+                                proper_parse.append(parses[0])
+                              
+                         #       print(parse[1])
+                                 
+                              if token_upos_fixed == parse[1].POS: 
+                                    proper_parse.append(parse)
+                         #           print(f"PROPER_REALLLLLLLLL  {proper_parse[0]}")
+                         #           print("meow")
+                                  
+                          #    print(proper_parse)
+                          #    print(processed_token_feats)
+                          #    print( constants.inflect_carefully(morph, parses[0], processed_token_feats))
+                            try:token["form"] = constants.inflect_carefully(morph, proper_parse[1], processed_token_feats)[0]
+                            except:token["form"] = constants.inflect_carefully(morph, proper_parse[0], processed_token_feats)[0]
 
 #FIX: VERBS SUCH AS odzyskać WHICH HAVE WEIRD ISV TRANSLATIONS SUCH AS iziskati ponovno
                    
