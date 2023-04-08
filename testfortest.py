@@ -13,28 +13,18 @@ PATH = os.path.dirname(sys.argv[0])
 
 morph = constants.create_etm_analyzer(PATH)
 
-parses = morph.parse("brati")
-print(parses[0][1])
-print(parses[1])
-print(parses[2])
+parses = morph.parse("on")
+print(parses)
+#print(parses[1])
+#print(parses[2])
 
-print( constants.inflect_carefully(morph, parses[2], { "1per", "pres", "sing", "femn"}))
-
-
-if "NOUN" in parses[0][1]:
-  print("YIPPPE")
+print( constants.inflect_carefully(morph, parses[0], {"NPRO", "datv"}))
 
 
 
-if "NOUN" in parses[2][1]:
-  print("GREEEE")
+parses = morph.parse("pozvaljati")
+try:print(parses[0][1])
+except:print(parses[1][1])
+try:print(parses[2])
+except:print(parses[3])
 
-
-if "VERB" in parses[2][1]:
-  print("weeee")
-
-
-parses = morph.parse("raz")
-print(parses[0][1])
-print(parses[1][1])
-print(parses[2])

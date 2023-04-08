@@ -7,7 +7,7 @@ import string
 import json
 import jellyfish
 from isv_nlp_utils import constants
-#import udapi
+
 
 PATH = os.path.dirname(sys.argv[0])
 punctuation_chars = list(string.punctuation)
@@ -18,13 +18,10 @@ morph = constants.create_etm_analyzer(PATH)
 
 with open("isvwords.json") as f:
     isvwords = json.load(f)
-  #  print(d)
 
+    
 
-open("isv_polish.conllu", 'w')
-
-
-print(isvwords[123]['pl'])
+open("isv_polish.conllu", 'w').close()
 
 
 data_file = open("pl_pud-ud-train2.conllu", "r", encoding="utf-8")
@@ -32,7 +29,6 @@ for tokenlist in conllu.parse_incr(data_file):
 
     wordcount = 0
     isvwordcount = 0
-  #  print(tokenlist)
 
     for token in tokenlist:
       if token["form"] not in punctuation_chars:
@@ -40,10 +36,12 @@ for tokenlist in conllu.parse_incr(data_file):
         wordcount = wordcount+1
         isvhit=0
         isvsimilarity=0
+        isvdeclined=0
 
         if token["lemma"] == 'sam': token["lemma"] = "samy"
         if token["lemma"] == 'sę': token["lemma"] = "się"
-        if 'więcej' in token["lemma"]: token["upos"] = "PART"
+        if 'więcej' == token["lemma"]: token["upos"] = "PART"
+        if 'najwięcej' == token["lemma"]: token["upos"] = "PART"
      #   if token["lemma"] == 'więcej': token["feats"] = None
         
 
@@ -56,6 +54,7 @@ for tokenlist in conllu.parse_incr(data_file):
         token_xpos = token["xpos"] 
         token_feats = token["feats"]
         token_deprel = token["deprel"]
+        token_misc = token["misc"]
 
         token_verbtype = None
         processed_token_feats = set()
@@ -77,13 +76,20 @@ for tokenlist in conllu.parse_incr(data_file):
 
 
 
-
-
+        print(token_lemma, token["form"], token_upos, token_xpos, token_deprel, token_feats,token_misc)
         
+        
+        
+        if token_upos == "ADJ": token_upos_fixed = "ADJF"
+        elif "VERB" in token_upos: token_upos_fixed = "VERB"
+        elif token_upos == "DET": token_upos_fixed = "NPRO"
+        elif token_upos == "PRON": token_upos_fixed = "NPRO"
+        elif token_upos == "NUM": token_upos_fixed = "NUMR"
+        elif (token_upos == "AUX") and (token_xpos == "part"): token_upos_fixed = "PART"
+        elif (token_upos == "AUX") and (token_xpos != "part"): token_upos_fixed = "VERB"
+        
+        else: token_upos_fixed = token_upos
 
-
-
-      #  print(f"token_feats::::::: {token_feats}")
         if token_feats is not None:
 
           if "Reflex" in token_feats:
@@ -134,8 +140,8 @@ for tokenlist in conllu.parse_incr(data_file):
           if "Person" in token_feats: token_person = token_feats["Person"] + 'per'
           if "VerbForm" in token_feats: 
               if token_feats["VerbForm"] == "Inf": token_verbform = "infn"
-              if token_feats["VerbForm"] == "Fin": token_verbform = "fin"
-              if token_feats["VerbForm"] == "Part": token_verbform = "part"
+              elif token_feats["VerbForm"] == "Fin": token_verbform = "fin"
+              elif token_feats["VerbForm"] == "Part": token_verbform = "part"
           if "Gender" in token_feats:
               if token_feats["Gender"] == "Fem": token_gender = "femn"
               else: token_gender = token_feats["Gender"].lower()
@@ -157,28 +163,6 @@ for tokenlist in conllu.parse_incr(data_file):
           #    else: token_mood = token_feats["Mood"].lower() 
 
 
-
-
-        
-        
-        if token_upos == "ADJ": token_upos_fixed = "ADJF"
-        elif "VERB" in token_upos: token_upos_fixed = "VERB"
-        elif token_upos == "DET": token_upos_fixed = "NPRO"
-        elif token_upos == "PRON": token_upos_fixed = "NPRO"
-        elif token_upos == "NUM": token_upos_fixed = "NUMR"
-        elif (token_upos == "AUX") and (token_xpos == "part"): token_upos_fixed = "PART"
-        elif (token_upos == "AUX") and (token_xpos != "part"): token_upos_fixed = "VERB"
-        
-        else: token_upos_fixed = token_upos
-
-
-
-                 
-
-          for x in {token_aspect,token_reflex, token_case, token_gender, token_number,token_polarity, token_person, token_verbform, token_tense, token_verbtype, token_mood, token_animacy,token_voice,token_prontype}:
-              if x is not None:
-                processed_token_feats.add(x)
-
           if (token_verbform == "Part") and (token["upos"] == "ADJ"):
             token_upos = "VERB"
             token_upos_fixed = "VERB"
@@ -186,11 +170,9 @@ for tokenlist in conllu.parse_incr(data_file):
 
 
 
-        print(token_lemma, token["form"], token_upos, token_feats, token_xpos, token_deprel)
-
-            
-
-
+          for x in {token_aspect,token_upos_fixed, token_reflex, token_case, token_gender, token_number,token_polarity, token_person, token_verbform, token_tense, token_verbtype, token_mood, token_animacy,token_voice,token_prontype}:
+              if x is not None:
+                processed_token_feats.add(x)
 
 
         for isvword in isvwords:
@@ -208,9 +190,7 @@ for tokenlist in conllu.parse_incr(data_file):
 
 #ADD: USE ALL POSSIBLE matched isv words instead of just the most similar                
                 if jellyfish.jaro_winkler_similarity(token_lemma, isvword["isv"]) >= isvsimilarity:
-              #      print(jellyfish.jaro_winkler_similarity(token["lemma"] , isvword["isv"]))
                     token["lemma"] = isvword["isv"]
-                    #print("DESUSUSUSUSU")
                     parses = morph.parse(token["lemma"])
                     
                     try: advb_in_parses = ("ADVB" in parses[0][1])
@@ -222,60 +202,37 @@ for tokenlist in conllu.parse_incr(data_file):
                     if (token_upos_fixed=="ADV") or (token_upos_fixed == "PART") or (token_upos_fixed == "ADP") or (token_upos_fixed == "CCONJ") or (token_upos_fixed == "X") or (token_upos_fixed == "SCONJ") or advb_in_parses:
                       
                       token["form"] = token["lemma"]
+                      isvdeclined = 1
                     elif (token_upos_fixed == "PROPN"):
                       token["form"]=token["form"]
+                      isvdeclined = 1
                     else:
-
-
-                      #if "VerbForm" in token_feats:
-                      #    token["form"] = constants.inflect_carefully(morph, parses[0], processed_token_feats)[0]
-
-                          
                       if (token_verbtype !='Quasi'):
                           
                             for parse in parses:
-                         #     print(parse) 
 
                               if proper_parse == []:
                                 proper_parse.append(parses[0])
+                                
                               
-                         #       print(parse[1])
-                                 
                               if token_upos_fixed == parse[1].POS: 
                                     proper_parse.append(parse)
-                         #           print(f"PROPER_REALLLLLLLLL  {proper_parse[0]}")
-                         #           print("meow")
-                                  
-                          #    print(proper_parse)
-                          #    print(processed_token_feats)
-                          #    print( constants.inflect_carefully(morph, parses[0], processed_token_feats))
-                            try:token["form"] = constants.inflect_carefully(morph, proper_parse[1], processed_token_feats)[0]
-                            except:token["form"] = constants.inflect_carefully(morph, proper_parse[0], processed_token_feats)[0]
+                            print(proper_parse)
+                            try:
+                                token["form"] = constants.inflect_carefully(morph, proper_parse[1], processed_token_feats)[0]
+                                isvdeclined =1
+
+                            except: isvdeclined=0
 
 #FIX: VERBS SUCH AS odzyskać WHICH HAVE WEIRD ISV TRANSLATIONS SUCH AS iziskati ponovno
                    
-                      
-
-                
-             #   print(token_lemma,' ', token["form"],' ', token["lemma"])
-        if isvhit==1:
+                    
+        if isvdeclined==1:
             isvwordcount = isvwordcount+1    
 
     if (isvwordcount/wordcount) > .7:
       with open("isv_polish.conllu", 'a') as g:
         g.write(tokenlist.serialize())  
 
-    #    print('  ')
-
- #   print(f"WORDS IN SENTENCE: {wordcount}")
-  #  print(f"ISV WORDS IN SENTENCE: {isvwordcount}")
-
-   # print(tokenlist[0]["lemma"])
-  #  print('\n')
-
-
 
 g.close()
-#print(new_file)
-
-
