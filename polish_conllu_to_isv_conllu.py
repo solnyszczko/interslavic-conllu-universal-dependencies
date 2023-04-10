@@ -93,8 +93,13 @@ for tokenlist in conllu.parse_incr(data_file):
                 part_check = ("part" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("particle"))
                 adv_check = ("adv" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("adv"))
                 undeclinable_check = conj_check or part_check or adv_check
+                
+                if clean_check and (jellyfish.jaro_winkler_similarity(token_lemma_original, isvword["isv"]) >= isvsimilarity): 
+                    isvsimilarity = jellyfish.jaro_winkler_similarity(token_lemma_original, isvword["isv"])
+                    similarity_check = True
+                else: similarity_check = False
 
-                similarity_check = jellyfish.jaro_winkler_similarity(token_lemma_original, isvword["isv"]) >= isvsimilarity
+
                 
                 if clean_check and similarity_check and (undeclinable_check):
                     token["form"] = isvword["isv"]
