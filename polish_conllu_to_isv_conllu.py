@@ -43,7 +43,7 @@ def try_inflect(pos,token,morph,isvword,processed_token_feats,token_upos_fixed):
              
              return inflected
          except:
-             print("FAIL INFLECT")
+             print(f"{pos} INFLECT SFAIL: {token_form_original} ")
              inflects_dict[pos]["bad"] +=1
              return []
              
@@ -57,12 +57,12 @@ for tokenlist in conllu.parse_incr(data_file):
 
 
     for token in tokenlist:
+        isvsimilarity = 0
+        isvdeclined = 0
+        
         if token["form"] not in punctuation_chars:
             total_words = total_words +1
-
             inflects_dict["total"]["good"]+=1
-            isvsimilarity = 0
-            isvdeclined = 0
             token_lemma_original = token["lemma"]
 
 # FIX SAMY SIE WIECEJ CASES
@@ -112,7 +112,7 @@ for tokenlist in conllu.parse_incr(data_file):
                 if clean_check and similarity_check:
                     print(token["lemma"], token["form"], token["upos"],token["xpos"], token["deprel"], token["feats"], token["misc"])
 
-                    isvdeclined = 1
+
 
                 # ON FIRST ISV HIT CONVERT POLISH ORTHOGRAPHY OF LEMMA TO INTERSLAVIC FOR BETTER JARO WINKLER
 
@@ -128,7 +128,9 @@ for tokenlist in conllu.parse_incr(data_file):
                     if adj_check:
                         test = try_inflect("adj",token,morph,isvword,processed_token_feats,token_upos_fixed)
                         
-                        if test !=[]:token["form"] = test;isvdeclined = 1
+                        if test !=[]:
+                            token["form"] = test
+                            isvdeclined = 1
                         else: 
 
                                 failed_inflects_set.add(token_lemma_original)
@@ -140,7 +142,9 @@ for tokenlist in conllu.parse_incr(data_file):
                         
                         test = try_inflect("verb",token,morph,isvword,processed_token_feats,token_upos_fixed)
                         
-                        if test !=[]:token["form"] = test;isvdeclined = 1
+                        if test !=[]:
+                            token["form"] = test
+                            isvdeclined = 1
                         else: 
 
                                 failed_inflects_set.add(token_lemma_original)
@@ -148,10 +152,12 @@ for tokenlist in conllu.parse_incr(data_file):
                                 
                                 
                                 
-                    if noun_check:
+                    elif (isvdeclined == 0) and noun_check:
                         test = try_inflect("noun",token,morph,isvword,processed_token_feats,token_upos_fixed)
                         
-                        if test !=[]:token["form"] = test;isvdeclined = 1
+                        if test !=[]:
+                            token["form"] = test
+                            isvdeclined = 1
                         else: 
 
                                 failed_inflects_set.add(token_lemma_original)
@@ -159,10 +165,12 @@ for tokenlist in conllu.parse_incr(data_file):
                                 
                                 
 
-                    if pron_check: # 'to'/'toj' is not in ISVWORDS
+                    elif (isvdeclined == 0) and pron_check: # 'to'/'toj' is not in ISVWORDS
                         test = try_inflect("pron",token,morph,isvword,processed_token_feats,token_upos_fixed)
                         
-                        if test !=[]:token["form"] = test;isvdeclined = 1
+                        if test !=[]:
+                            token["form"] = test
+                            isvdeclined = 1
                         else: 
 
                                 failed_inflects_set.add(token_lemma_original)
@@ -182,7 +190,7 @@ for tokenlist in conllu.parse_incr(data_file):
             if isvdeclined == 1:
                 inflects_dict["total_isv"]["good"] +=1
 
-    if ((inflects_dict["total_isv"]["good"] + inflects_dict["proper_nouns"]) /inflects_dict["total"]["good"]) > 0.6:
+    if ((inflects_dict["total_isv"]["good"] + inflects_dict["proper_nouns"]) /inflects_dict["total"]["good"]) > 0.5:
         with open("isv_polish.conllu", 'a') as g:
             g.write(tokenlist.serialize())
 
