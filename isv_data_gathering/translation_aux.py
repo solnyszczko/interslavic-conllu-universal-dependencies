@@ -10,9 +10,9 @@ def UDPos2OpenCorpora(pos):
     if pos == "aux":
         return ["verb", "part"]
     if pos == "adj":
-        return ["verb", "part", "adj"] #for participles treated as adjectives
+        return ["verb", "adjf"] #for participles treated as adjectives
     if pos == "det":
-        return ["pron", "adj"]
+        return ["npro", "adjf","adv"] #added 'adv' for vęće-> wiecej
     if pos == "adp":
         return ["prep"]
     if pos == "cconj":
@@ -23,6 +23,8 @@ def UDPos2OpenCorpora(pos):
         return ["part", "interjection", "conj", "adv"]
     if pos == "propn":
         return ["noun"]
+    if pos == "pron":
+        return ["npro"]
     return [pos]
 
 def UDFeats2OpenCorpora(feats, src_lang):
@@ -30,8 +32,8 @@ def UDFeats2OpenCorpora(feats, src_lang):
     for key, value in feats.items():
         if key == "Animacy":
             if value =="Hum": value = "anim"
-            elif value =="Inan": value = "inan"
-            elif value =="Nhum": pass #value = "inan" idk yet
+            if value =="Inan": value = "inan"
+            if value =="Nhum": pass #value = "inan" idk yet this one is pretty random
             result.append(value)
            
         if key == 'Case':
@@ -58,6 +60,7 @@ def UDFeats2OpenCorpora(feats, src_lang):
             if value.lower() == 'fut': value ='futr'
             result.append(value.lower())
         if key == 'Person':
+            if value.lower() =='0': result.append("pssv")#FIXW
             result.append(value.lower() + 'per')
         if key == 'Aspect':
             if value.lower() == "imp": 
@@ -161,17 +164,20 @@ def iskati2(jezyk, slovo, sheet, pos=None):
         return candidates.index.tolist(), 'maybe'
 
 
-def inflect_carefully(morph, isv_lemma, inflect_data, verbose=False):
+def inflect_carefully(morph, isv_lemma, inflect_data, pos=[] ,verbose=False):
     if verbose:
         print(isv_lemma, inflect_data)
-    parsed = morph.parse(isv_lemma)
-    if not parsed:
+    parses = morph.parse(isv_lemma)#parsed gets set twice?
+    parsed = None
+    if not parses:
         # some sort of error happened
         if verbose:
             print("ERROR:", isv_lemma, inflect_data)
         return []
-
-    parsed = morph.parse(isv_lemma)[0]
+    if pos!=[]: #added optional POS option, for me helped fix conjugation of the word "brati"
+        for parse in parses:
+            if parse[1].POS.lower() in pos: parsed = parse
+    if parsed == None: parsed = morph.parse(isv_lemma)[0]
     lexeme = parsed.lexeme
     is_negative = False
 

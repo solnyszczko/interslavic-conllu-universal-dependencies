@@ -72,12 +72,16 @@ for tokenlist in conllu.parse_incr(data_file):
             if token["feats"] is not None:
 
                 processed_token_feats = translation_aux.UDFeats2OpenCorpora(token["feats"], "pl")
+
+                if 'anim' in processed_token_feats:processed_token_feats.remove('anim')
+                if 'inan' in processed_token_feats:processed_token_feats.remove('inan')
                 token["feats"]["OpenC"] = repr(processed_token_feats)
                 
-            if token["upos"] == "PROPN":
+            if token["upos"] == "PROPN": #nas->naszem issue....
                 inflects_dict["proper_nouns"] +=1
                 isvdeclined == 1
-                
+
+
 
             else: 
              for isvword in isvwords:
@@ -87,25 +91,23 @@ for tokenlist in conllu.parse_incr(data_file):
 
                 verb_check = ("verb" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("v."))
                 noun_check = ("noun" in token_upos_fixed) and ((isvword["partOfSpeech"].startswith("m.")) or (isvword["partOfSpeech"].startswith("f.")) or (isvword["partOfSpeech"].startswith("n.")))
-                adj_check = ("adj" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("adj"))
+                adj_check = ("adjf" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("adj"))
                 pron_check = ("npro" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("pron"))
                 conj_check = ("conj" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("conj"))
                 part_check = ("part" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("particle"))
                 adv_check = ("adv" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("adv"))
-                undeclinable_check = conj_check or part_check or adv_check
+                adp_check = ("prep" in token_upos_fixed) and (isvword["partOfSpeech"].startswith("prep"))
+                x_check = ("x" in token_upos_fixed)
+                undeclinable_check = conj_check or part_check or adv_check or adp_check or x_check
                 
                 if clean_check and (jellyfish.jaro_winkler_similarity(token_lemma_original, isvword["isv"]) >= isvsimilarity): 
                     isvsimilarity = jellyfish.jaro_winkler_similarity(token_lemma_original, isvword["isv"])
                     similarity_check = True
+                    
                 else: similarity_check = False
 
 
-                
-                if clean_check and similarity_check and (undeclinable_check):
-                    token["form"] = isvword["isv"]
 
-                    
-                    inflects_dict["part"]["good"] +=1
 
                 if clean_check and similarity_check:
                     print(token["lemma"], token["form"], token["upos"],token["xpos"], token["deprel"], token["feats"], token["misc"])
@@ -122,7 +124,18 @@ for tokenlist in conllu.parse_incr(data_file):
 # FIX PROPER NOUN PROPER NOUN
 # MAKE SURE TO CHECK PART OF SPEECH BEFORE SENDING LEMMA
 # (token["VerbType"] !='Quasi')
-                    if verb_check:
+
+                    if adj_check:
+                        test = try_inflect("adj",token,morph,isvword,processed_token_feats,token_upos_fixed)
+                        
+                        if test !=[]:token["form"] = test;isvdeclined = 1
+                        else: 
+
+                                failed_inflects_set.add(token_lemma_original)
+                                isvdeclined = 0
+                                
+
+                    elif (isvdeclined == 0) and verb_check:
                         
                         
                         test = try_inflect("verb",token,morph,isvword,processed_token_feats,token_upos_fixed)
@@ -145,15 +158,7 @@ for tokenlist in conllu.parse_incr(data_file):
                                 isvdeclined = 0
                                 
                                 
-                    if adj_check:
-                        test = try_inflect("adj",token,morph,isvword,processed_token_feats,token_upos_fixed)
-                        
-                        if test !=[]:token["form"] = test;isvdeclined = 1
-                        else: 
 
-                                failed_inflects_set.add(token_lemma_original)
-                                isvdeclined = 0
-                                
                     if pron_check: # 'to'/'toj' is not in ISVWORDS
                         test = try_inflect("pron",token,morph,isvword,processed_token_feats,token_upos_fixed)
                         
@@ -162,6 +167,13 @@ for tokenlist in conllu.parse_incr(data_file):
 
                                 failed_inflects_set.add(token_lemma_original)
                                 isvdeclined = 0
+                                
+                    elif (isvdeclined == 0) and undeclinable_check:
+                        token["form"] = isvword["isv"]
+                        isvdeclined == 1
+
+                    
+                        inflects_dict["part"]["good"] +=1
                                 
                                 
                     
