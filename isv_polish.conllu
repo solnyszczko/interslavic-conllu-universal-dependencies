@@ -1,0 +1,2084 @@
+# sent_id = n01002017
+# text = Ale odchodząc od swojej dawnej retoryki o ograniczaniu imigracji, kandydat Republikanów ogłosił, że jako prezydent dopuści „ogromną liczbę” legalnych imigrantów w oparciu o „system zasług”.
+# text_en = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
+1	no	no	CCONJ	conj	_	13	cc	13:cc	_
+2	uhodęći	uhoditi	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	13:advcl	_
+3	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Gen
+4	svojej	svoj	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det:poss	6:det:poss	_
+5	davnoj	davny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	6:amod	_
+6	retoryki	retoryka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obl:arg	2:obl:arg	_
+7	o	o	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc
+8	obmeđatu	ograničati	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod	6:nmod	_
+9	imigracije	imigracija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	2	punct	2:punct	_
+11	kandidat	kandidat	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	13:nsubj	_
+12	republikancev	republikanec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod	_
+13	oglåsil	oglåsiti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	18	punct	18:punct	_
+15	že	že	SCONJ	comp	_	18	mark	18:mark	_
+16	ako	ako	SCONJ	comp	ConjType=Pred	17	mark	17:mark	_
+17	prezident	prezident	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	18	obl	18:obl	_
+18	dozvoli	dozvoliti	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	ccomp:obj	13:ccomp:obj	_
+19	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	21	punct	21:punct	SpaceAfter=No
+20	ogromnų	ogromny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	21:amod	_
+21	nomer	nomer	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	18	obj	18:obj	SpaceAfter=No
+22	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	21	punct	21:punct	_
+23	zakonni	zakonny	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	24	amod	24:amod	_
+24	imigrantov	imigrant	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	21	nmod:arg	21:nmod:arg	_
+25	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	29	case	29:case	Case=Loc
+26	oparciu	oparcie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	25	fixed	25:fixed	_
+27	o	o	ADP	prep:acc	AdpType=Prep	25	fixed	25:fixed	Case=Acc
+28	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	29	punct	29:punct	SpaceAfter=No
+29	ustrojstvo	ustrojstvo	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	18:obl	_
+30	zaslug	zasluga	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	29	nmod:arg	29:nmod:arg	SpaceAfter=No
+31	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	29	punct	29:punct	SpaceAfter=No
+32	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	_
+
+# sent_id = n01002032
+# text = — Nie chciałbym wywierać na was presji, ale los republiki spoczywa na waszych barkach — powiedział tłumom zgromadzonym na boisku Uniwersytetu Północnej Karoliny.
+# text_en = “So I hate to put a little pressure on you, but the fate of the republic rests on your shoulders,” he told the crowd gathered on a sports field at the University of North Carolina.
+1	—	—	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
+2	ne	ne	PART	part	Polarity=Neg	3	advmod:neg	3:advmod:neg	_
+3-5	chciałbym	_	_	_	_	_	_	_	_
+3	htěl	htěti	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis:obj	19:parataxis:obj	_
+4	by	by	AUX	part	_	3	aux:cnd	3:aux:cnd	_
+5	byh	byti	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	3	aux:clitic	3:aux:clitic	_
+6	wywierać	wywierać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
+7	na	na	ADP	prep:acc	AdpType=Prep	8	case	8:case	Case=Acc
+8	vas	vy	PRON	ppron12:pl:loc:m1:sec	Animacy=Hum|Case=Loc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	obl:arg	6:obl:arg	_
+9	napora	napor	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	obj	6:obj	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+11	no	no	CCONJ	conj	_	14	cc	14:cc	_
+12	sųďba	sųďba	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	14:nsubj	_
+13	republiky	republika	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod	12:nmod	_
+14	spoczywa	spoczywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	3:conj|19:parataxis:obj	_
+15	na	na	ADP	prep:loc	AdpType=Prep	17	case	17:case	Case=Loc
+16	vaše	vaš	DET	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	17	det:poss	17:det:poss	_
+17	barkach	bark	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl:arg	14:obl:arg	_
+18	—	—	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
+19	skazal	skazati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+20	tȯlpam	tȯlpa	NOUN	subst:pl:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	19	iobj	19:iobj	_
+21	zgromadzonym	sȯbrati	ADJ	ppas:pl:dat:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	20	acl	20:acl	_
+22	na	na	ADP	prep:loc	AdpType=Prep	23	case	23:case	Case=Loc
+23	boisku	boisko	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	21	obl	21:obl	_
+24	universiteta	universitet	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	23:nmod	_
+25	sěvernoj	sěverny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod:flat	26:amod:flat	_
+26	Karoliny	Karolina	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	24	flat	24:flat	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	_
+
+# sent_id = n01003007
+# text = 5 tys. dolarów na osobę, dopuszczalne maksimum.
+# text_en = $5,000 per person, the maximum allowed.
+1	5	5	NUM	num:pl:nom:m3:congr	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
+2	tysęć	tysęć	X	brev:pun	Abbr=Yes|Pun=Yes	1	flat	1:flat	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+4	dolarov	dolar	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	0	root	0:root	_
+5	na	na	ADP	prep:acc	AdpType=Prep	6	case	6:case	Case=Acc
+6	osobų	osoba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	nmod	4:nmod	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+8	pozvolimo	pozvolimy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	9:amod	_
+9	maksimum	maksimum	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	4	appos	4:appos	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01003013
+# text = Być może dress code był zbyt sztywny.
+# text_en = Maybe the dress code was too stuffy.
+1	byti	byti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	parataxis:insert	7:parataxis:insert	_
+2	može	može	PART	part	PartType=Mod	1	fixed	1:fixed	_
+3	dress	dress	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	_
+4	code	code	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nmod:flat	3:nmod:flat	_
+5	byl	byti	AUX	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+6	zamnogo	zamnogo	ADV	adv	_	7	advmod	7:advmod	_
+7	negybky	negybky	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01004009
+# text = Na przykład, zamiast uczyć się o metodzie naukowej jako odrębnym zagadnieniu, uczniowie przyswajają wiedzę naukową używając jej w praktyce.
+# text_en = Rather than teaching the scientific method as a separate unit, for example, students learn science content by applying it.
+1	na	na	ADP	prep:acc	AdpType=Prep	15	parataxis:insert	15:parataxis:insert	Case=Acc
+2	priměr	priměr	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	1:fixed	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+4	zaměsto	zaměsto	SCONJ	comp	_	5	mark	5:mark	_
+5	učiti	učiti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	15	advcl	15:advcl	_
+6	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+7	o	o	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc
+8	sposobu	sposob	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	_
+9	naučnoj	naučny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+10	ako	ako	SCONJ	comp	ConjType=Pred	12	mark	12:mark	_
+11	odrębnym	odrębny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
+12	zapytalo	zapytańje	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	8	nmod	8:nmod	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+14	učeniki	učenik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	15:nsubj	_
+15	prisvajajųt	prisvajati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+16	znala	znańje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	_
+17	naučnų	naučny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	_
+18	uživajųći	uživati	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	15:advcl	_
+19	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	18	obj	18:obj	_
+20	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	21	case	21:case	Case=Loc
+21	praktikě	praktika	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	18	obl	18:obl	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	15	punct	15:punct	_
+
+# sent_id = n01004017
+# text = Mieszczą się w średniej krajowej na poziomie 4. klasy i przekraczają średnią krajową na poziomie 8. klasy.
+# text_en = They are at the national average in grade 4 and better than national average in grade 8.
+1	Mieszczą	mieścić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Loc
+4	srědnjem	srědnje	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl:arg	1:obl:arg	_
+5	vnųtrnoj	vnųtrny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	_
+6	na	na	ADP	prep:loc	AdpType=Prep	7	case	7:case	Case=Loc
+7	uråvnju	uråvenj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	1:obl	_
+8	4	4	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|NumForm=Digit|NumType=Ord	10	amod	10:amod	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
+10	råzręda	råzręd	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod:arg	7:nmod:arg	_
+11	pa	pa	CCONJ	conj	_	12	cc	12:cc	_
+12	prěstųpajųt	prěstųpati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	_
+13	srědnji	srědnje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	12	obj	12:obj	_
+14	vnųtrnų	vnųtrny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	_
+15	na	na	ADP	prep:loc	AdpType=Prep	16	case	16:case	Case=Loc
+16	uråvnju	uråvenj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	12:obl	_
+17	8	8	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|NumForm=Digit|NumType=Ord	19	amod	19:amod	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	17	punct	17:punct	_
+19	råzręda	råzręd	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod:arg	16:nmod:arg	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01006011
+# text = Świadek powiedział policji, że ofiara zaatakowała podejrzanego w kwietniu.
+# text_en = A witness told police that the victim had attacked the suspect in April.
+1	svědȯk	svědȯk	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	skazal	skazati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	policiji	policija	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	2	iobj	2:iobj	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+5	že	že	SCONJ	comp	_	7	mark	7:mark	_
+6	žrtva	žrtva	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	_
+7	napadla	napasti	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:obj	2:ccomp:obj	_
+8	podejrzanego	podzrěny	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Loc
+10	cvětenju	cvětenj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01007012
+# text = Można wskazać paralele między grami a naszym codziennym życiem.
+# text_en = There are parallels to draw here between games and our everyday lives.
+1	možno	možno	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+2	ukazati	ukazati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	_
+3	paralely	paralela	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	obj	2:obj	_
+4	među	među	ADP	prep:inst	AdpType=Prep	5	case	5:case|9:case	Case=Ins
+5	igrami	igra	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	3	nmod	3:nmod	_
+6	pa	pa	CCONJ	conj	_	9	cc	9:cc	_
+7	našim	naš	DET	adj:sg:inst:n:pos	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	9:det:poss	_
+8	povsednjim	povsednji	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	9:amod	_
+9	životom	život	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	5	conj	3:nmod|5:conj	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01009027
+# text = Khanzir być może jest dzisiaj samotną świnią, ale nie zawsze jest sam.
+# text_en = Today, Khanzir may be a lonely pig, but he isn’t always alone.
+1	Khanzir	Khanzir	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj|13:nsubj	_
+2	byti	byti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	parataxis:insert	7:parataxis:insert	_
+3	može	može	PART	part	PartType=Mod	2	fixed	2:fixed	_
+4	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+5	tutdenj	tutdenj	ADV	adv	_	7	advmod	7:advmod	_
+6	samotnojų	samotny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	7:amod	_
+7	svinjejų	svinja	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+9	no	no	CCONJ	conj	_	13	cc	13:cc	_
+10	ne	ne	PART	part	Polarity=Neg	11	advmod:neg	11:advmod:neg	_
+11	zawsze	zawsze	ADV	adv	PronType=Tot	13	advmod	13:advmod	_
+12	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+13	sam	samy	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	conj	0:root|7:conj	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01011017
+# text = „Tak czy inaczej idę do więzienia, mam nadzieję, że było warto.”
+# text_en = "I'm going to jail either way, hope it was worth it."
+1	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	5	punct	5:punct	SpaceAfter=No
+2	takto	takto	ADV	adv:pos	Degree=Pos|PronType=Dem	5	advmod	5:advmod	_
+3	li	li	CCONJ	conj	_	4	cc	4:cc	_
+4	inako	inako	ADV	adv	_	2	conj	2:conj|5:advmod	_
+5	idų	idti	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	do	do	ADP	prep:gen	AdpType=Prep	7	case	7:case	Case=Gen
+7	zatvora	zatvor	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	obl	5:obl	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+9	mam	mieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	_
+10	nadějų	naděja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	iobj	9:iobj	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+12	že	že	SCONJ	comp	_	14	mark	14:mark	_
+13	bylo	byti	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
+14	warto	warto	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	10	ccomp	10:ccomp	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	9	punct	9:punct	SpaceAfter=No
+16	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	5	punct	5:punct	_
+
+# sent_id = n01012003
+# text = Najpierw zaczęła płakać jedna z jezydek, potem jej przyjaciółka.
+# text_en = First one of the Yazidi women started crying, then one of her friends.
+1	najpŕvo	najpŕvo	ADV	adv	_	2	advmod	2:advmod	_
+2	začęla	začęti	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	plakati	plakati	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	_
+4	jedna	jedin	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
+5	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Gen
+6	jezydek	jezydka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	obl	4:obl	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+8	potom	potom	ADV	adv	_	10	advmod	10:advmod	_
+9	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	10	nmod	10:nmod	_
+10	prijateljka	prijateljka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	conj	0:root|2:conj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01016014
+# text = Południowokoreańska firma początkowo uznała za przyczynę wadę baterii i zamieniła własny komponent na baterię innego producenta.
+# text_en = The South Korean company initially thought a battery fault was to blame, and switched its own component for a third-party power cell.
+1	južnokorejska	južnokorejsky	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	_
+2	firma	firma	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj|10:nsubj	_
+3	počętkovo	počętkovo	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+4	uznala	uznati	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	za	za	ADP	prep:acc	AdpType=Prep	6	case	6:case	Case=Acc
+6	pričinų	pričina	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg	_
+7	slabosť	slabosť	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	_
+8	baterije	baterija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod	_
+9	pa	pa	CCONJ	conj	_	10	cc	10:cc	_
+10	zaměnila	zaměniti	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+11	vlastny	vlastny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	12:amod	_
+12	komponent	komponent	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	10:obj	_
+13	na	na	ADP	prep:acc	AdpType=Prep	14	case	14:case	Case=Acc
+14	baterijų	baterija	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	obl:arg	10:obl:arg	_
+15	iny	iny	ADJ	adj:sg:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	16:amod	_
+16	proizvoditelja	proizvoditelj	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	14	nmod	14:nmod	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01016019
+# text = Niektórzy analitycy sugerują, że na kłopotach Samsunga najbardziej może skorzystać Huawei.
+# text_en = Several analysts have suggested Huawei is best placed to benefit from Samsung's setback.
+1	poněktori	poněktory	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	2:det	_
+2	analitiki	analitik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	3:nsubj	_
+3	prědlagajųt	prědlagati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+5	že	že	SCONJ	comp	_	10	mark	10:mark	_
+6	na	na	ADP	prep:loc	AdpType=Prep	7	case	7:case	Case=Loc
+7	neprijętnosťah	neprijętnosť	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl:arg	11:obl:arg	_
+8	Samsunga	Samsunga	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod	_
+9	veľmi	veľmi	ADV	adv:sup	Degree=Sup	11	advmod	11:advmod	_
+10	može	mogti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp:obj	3:ccomp:obj	_
+11	skorzystać	skorzystać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	10:xcomp	_
+12	Huawei	Huawei	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	10:nsubj	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01017005
+# text = Jeden z ekspertów ostrzegł jednak, że dostęp do internetu na pokładzie samolotu jest często zawodny i raczej nie będzie miał wpływu na wybór linii lotniczej przez podróżnych.
+# text_en = But one travel expert warned in-flight internet was often unreliable and was unlikely to influence travellers' airline choices.
+1	Jeden	jedin	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+2	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Gen
+3	znalcev	znalec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	obl	1:obl	_
+4	prěduprědil	prěduprěditi	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	obače	obače	PART	part	_	4	advmod:emph	4:advmod:emph	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	_
+7	že	že	SCONJ	comp	_	16	mark	16:mark|21:mark	_
+8	pristųp	pristųp	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	16:nsubj	_
+9	do	do	ADP	prep:gen	AdpType=Prep	10	case	10:case	Case=Gen
+10	interneta	internet	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod:arg	8:nmod:arg	_
+11	na	na	ADP	prep:loc	AdpType=Prep	12	case	12:case	Case=Loc
+12	osadku	osadȯk	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	16:obl	_
+13	samoleta	samolet	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod:arg	12:nmod:arg	_
+14	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
+15	čęsto	čęsto	ADV	adv:pos	Degree=Pos	16	advmod	16:advmod	_
+16	nenadežny	nenadežny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	ccomp	4:ccomp	_
+17	pa	pa	CCONJ	conj	_	21	cc	21:cc	_
+18	skorěje	skorěje	PART	part	_	21	advmod:emph	21:advmod:emph	_
+19	ne	ne	PART	part	Polarity=Neg	21	advmod:neg	21:advmod:neg	_
+20	by	byti	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	aux	21:aux	_
+21	miał	mieć	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	4:ccomp|16:conj	_
+22	vplyva	vplyv	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	iobj	21:iobj	_
+23	na	na	ADP	prep:acc	AdpType=Prep	24	case	24:case	Case=Acc
+24	izvolil	izvoljeńje	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	nmod:arg	22:nmod:arg	_
+25	linije	linija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	24	nmod:arg	24:nmod:arg	_
+26	aeronavtičnoj	aeronavtičny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	25:amod	_
+27	prěz	prěz	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	28	case	28:case	Case=Acc
+28	podróżnych	podróżny	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	24	obl:agent	24:obl:agent	SpaceAfter=No
+29	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01017008
+# text = „Ale być może BA i IAG uporały się z tym i mogą zaoferować coś w miarę niezawodnego.”
+# text_en = "But it may be that BA and IAG have cracked it and can offer something vaguely reliable."
+1	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	8	punct	8:punct	SpaceAfter=No
+2	no	no	CCONJ	conj	_	8	cc	8:cc	_
+3	byti	byti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	8	parataxis:insert	8:parataxis:insert|13:parataxis:insert	_
+4	može	može	PART	part	PartType=Mod	3	fixed	3:fixed	_
+5	BA	BA	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	8:nsubj|13:nsubj	_
+6	pa	pa	CCONJ	conj	_	7	cc	7:cc	_
+7	IAG	IAG	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	5	conj	5:conj|8:nsubj|13:nsubj	_
+8	uporały	uporać	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
+10	iz	iz	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Ins
+11	tym	to	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	8	obl:arg	8:obl:arg	_
+12	pa	pa	CCONJ	conj	_	13	cc	13:cc	_
+13	mogųt	mogti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	8:conj	_
+14	prědložiti	prědložiti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	13:xcomp	_
+15	něčego	něčto	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	14	obj	14:obj	_
+16	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	18	advmod	18:advmod	Case=Acc
+17	měrų	měra	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	16	fixed	16:fixed	_
+18	nadežnogo	nadežny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	15:amod	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	SpaceAfter=No
+20	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	8	punct	8:punct	_
+
+# sent_id = n01017010
+# text = Spółka powiedziała BBC, że decyzja o wprowadzeniu dla pasażerów opłaty za dostęp należałaby do linii lotniczej.
+# text_en = The company told the BBC it would be the responsibility of each airline brand to decide whether to charge passengers an access fee.
+1	korporacija	korporacija	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
+2	skazala	skazati	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	BBC	BBC	PROPN	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing	2	iobj	2:iobj	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+5	že	že	SCONJ	comp	_	14	mark	14:mark	_
+6	rěšeńje	rěšeńje	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj	_
+7	o	o	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc
+8	wprowadzeniu	vvesti	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod:arg	6:nmod:arg	_
+9	za	za	ADP	prep:gen	AdpType=Prep	10	case	10:case	Case=Gen
+10	pasažerov	pasažer	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod	_
+11	opłaty	opłata	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	obj	8:obj	_
+12	za	za	ADP	prep:acc	AdpType=Prep	13	case	13:case	Case=Acc
+13	pristųp	pristųp	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod:arg	11:nmod:arg	_
+14-15	należałaby	_	_	_	_	_	_	_	_
+14	prinaležala	prinaležati	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:obj	2:ccomp:obj	_
+15	by	by	AUX	part	_	14	aux:cnd	14:aux:cnd	_
+16	do	do	ADP	prep:gen	AdpType=Prep	17	case	17:case	Case=Gen
+17	linije	linija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	obl:arg	14:obl:arg	_
+18	aeronavtičnoj	aeronavtičny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	17:amod	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01017013
+# text = „Większość ludzi za bardziej przydatny uzna dostęp do Wi-Fi na lotnisku niż możliwość wysyłania mejli z samolotu.”
+# text_en = "Most people would find airport wi-fi more useful than being able to send emails on a plane."
+1	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	7	punct	7:punct	SpaceAfter=No
+2	vęćinstvo	vęćinstvo	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	_
+3	ljudij	člověk	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	2	nmod:arg	2:nmod:arg	_
+4	za	za	ADP	prep:acc	AdpType=Prep	6	case	6:case	Case=Acc
+5	veľmi	veľmi	ADV	adv:com	Degree=Cmp	6	advmod	6:advmod	_
+6	przydatny	przydatny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	obl:arg	7:obl:arg	_
+7	uznaje	uznati	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	pristųp	pristųp	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	_
+9	do	do	ADP	prep:gen	AdpType=Prep	10	case	10:case	Case=Gen
+10	Wi-Fi	Wi-Fi	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	8	nmod:arg	8:nmod:arg	_
+11	na	na	ADP	prep:loc	AdpType=Prep	12	case	12:case	Case=Loc
+12	letišču	letišče	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	8	nmod	8:nmod	_
+13	neželi	neželi	SCONJ	comp	ConjType=Comp	14	mark	14:mark	_
+14	možnosť	možnosť	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	obl:cmpr	8:obl:cmpr	_
+15	wysyłania	odsylati	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	nmod:arg	14:nmod:arg	_
+16	mejli	mejl	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obj	15:obj	_
+17	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	18	case	18:case	Case=Gen
+18	samoleta	samolet	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	15:nmod	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	SpaceAfter=No
+20	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	7	punct	7:punct	_
+
+# sent_id = n01018040
+# text = Program zarabia dzięki sponsorom i reklamom.
+# text_en = The scheme makes money through sponsorship and advertising.
+1	programa	programa	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	zaråbotyvaje	zaråbotyvati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	hvala	hvala	ADP	prep:dat	AdpType=Prep	4	case	4:case|6:case	Case=Dat
+4	sponsoram	sponsor	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	2	obl	2:obl	_
+5	pa	pa	CCONJ	conj	_	6	cc	6:cc	_
+6	reklamam	reklama	NOUN	subst:pl:dat:f	Case=Dat|Gender=Fem|Number=Plur	4	conj	2:obl|4:conj	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01019005
+# text = Niektórzy eksperci ds. bezpieczeństwa zakwestionowali jednak potrzebę szkolenia i jego prawdziwe cele.
+# text_en = But some security experts raised questions about the need for the course and the intent behind it.
+1	poněktori	poněktory	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	2	det	2:det	_
+2	znalci	znalec	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	6:nsubj	_
+3	ds	do spraw	X	brev:pun	Abbr=Yes|Pun=Yes	2	nmod	2:nmod	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+5	bezpečnosti	bezpečnosť	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod:arg	3:nmod:arg	_
+6	osporivši	osporiti	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	obače	obače	PART	part	_	6	advmod:emph	6:advmod:emph	_
+8	trěba	trěba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj	_
+9	treninga	trening	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	8	nmod:arg	8:nmod:arg	_
+10	pa	pa	CCONJ	conj	_	13	cc	13:cc	_
+11	jego	on	PRON	ppron3:sg:gen:n:ter:akc:npraep	Case=Gen|Gender=Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	13	nmod	13:nmod	_
+12	věrne	věrny	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	13	amod	13:amod	_
+13	mety	meta	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	6:obj|8:conj	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
+
+# sent_id = n01020004
+# text = Samoloty widzieli poprzednio tylko blogerzy.
+# text_en = Previously the jets had only been seen by bloggers.
+1	samolety	samolet	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	2:obj	_
+2	zrěvši	zrěti	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	prěđe	prěđe	ADV	adv:pos	Degree=Pos	2	advmod	2:advmod	_
+4	toliko	toliko	PART	part	_	5	advmod:emph	5:advmod:emph	_
+5	blogerzy	bloger	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01020017
+# text = Oczywiście Chiny zaprezentują w tym tygodniu mnóstwo innego sprzętu wojskowego, poczynając od śmigłowców szturmowych, a kończąc na hydroplanach.
+# text_en = Naturally China will be presenting plenty of other military hardware this week from attack helicopters to seaplanes.
+1	samoråzumno	samoråzumno	ADV	adv:pos	Degree=Pos	3	parataxis:insert	3:parataxis:insert	_
+2	Chiny	Kitaj	PROPN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	3	nsubj	3:nsubj	_
+3	prědstavęt	prědstaviti	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Loc
+5	tutoj	tutoj	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	_
+6	tydnju	tydenj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	3:obl	_
+7	obiľje	obiľje	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	3	obj	3:obj	_
+8	iny	iny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	9:amod	_
+9	sprzętu	sprzęt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod:arg	7:nmod:arg	_
+10	vojenny	vojenny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	9:amod	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+12	poczynając	poczynać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	3:advcl	_
+13	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	14	case	14:case	Case=Gen
+14	vŕtoletov	vŕtolet	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl:arg	12:obl:arg	_
+15	szturmowych	szturmowy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	14:amod	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	18:punct	_
+17	pa	pa	CCONJ	conj	_	18	cc	18:cc	_
+18	zavŕšajųći	zavŕšati	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	conj	3:advcl|12:conj	_
+19	na	na	ADP	prep:loc	AdpType=Prep	20	case	20:case	Case=Loc
+20	hydroplanach	hydroplan	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl:arg	18:obl:arg	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01020021
+# text = Biorąc pod uwagę, że Chiny są na drodze do zajęcia wiodącej pozycji na rynku lotniczym w następnej dekadzie, pokaz jest dla Pekinu okazją, aby pokazać swoje ambicje zarówno w dziedzinie lotnictwa cywilnego, jak obronności.
+# text_en = And with China set to become the world's biggest aviation market in the next decade, the show is an opportunity for Beijing to demonstrate its ambitions in civil aviation as well as defence.
+1	jmųći	jęti	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	25	advcl	25:advcl	_
+2	pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Acc
+3	vnimańje	vnimańje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	1:obl:arg	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+5	že	že	SCONJ	comp	_	7	mark	7:mark	_
+6	Chiny	Kitaj	PROPN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	7	nsubj	7:nsubj	_
+7	by	byti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+8	na	na	ADP	prep:loc	AdpType=Prep	11	case	11:case	Case=Loc
+9	drågě	dråga	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	fixed	8:fixed	_
+10	do	do	ADP	prep:gen	AdpType=Prep	8	fixed	8:fixed	Case=Gen
+11	zajęcia	zajęti	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obl	7:obl	_
+12	wiodącej	vesti	ADJ	pact:sg:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	13	acl	13:acl	_
+13	stanovišča	stanovišče	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	obj	11:obj	_
+14	na	na	ADP	prep:loc	AdpType=Prep	15	case	15:case	Case=Loc
+15	rynku	rynek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	11:nmod	_
+16	aeronavtičny	aeronavtičny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	_
+17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	19:case	Case=Loc
+18	slědujųćej	slědujųći	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	19:amod	_
+19	desętilěťju	desętilěťje	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	_
+21	pokaz	pokaz	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	25:nsubj	_
+22	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	25:cop	_
+23	za	za	ADP	prep:gen	AdpType=Prep	24	case	24:case	Case=Gen
+24	Pekinu	Pekin	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	25:nmod	_
+25	okazijejų	okazija	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	28	punct	28:punct	_
+27	aby	aby	SCONJ	comp	_	28	mark	28:mark	_
+28	ukazati	ukazati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	25:xcomp	_
+29	svoje	svoj	DET	adj:pl:acc:f:pos	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	30	det:poss	30:det:poss	_
+30	ambicije	ambicija	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	28	obj	28:obj	_
+31	zarówno	zarówno	CCONJ	conj	_	34	cc:preconj	34:cc:preconj	_
+32	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	34	case	34:case|38:case	Case=Loc
+33	oblasti	oblasť	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	32	fixed	32:fixed	_
+34	aviacije	aviacija	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	30	nmod:arg	30:nmod:arg	_
+35	gråđanskogo	gråđansky	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	34:amod	SpaceAfter=No
+36	,	,	PUNCT	interp	PunctType=Comm	38	punct	38:punct	_
+37	jak	jak	CCONJ	conj	_	38	cc	38:cc	_
+38	obronności	obronność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	34	conj	30:nmod:arg|34:conj	SpaceAfter=No
+39	.	.	PUNCT	interp	PunctType=Peri	25	punct	25:punct	_
+
+# sent_id = n01021012
+# text = Analizy wykazały, że do wywołania zakłóceń użyto niespotykanych dotąd ilości danych.
+# text_en = Analysis revealed that historic amounts of data had been used to cause the disruption.
+1	råzbory	råzbor	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	2:nsubj	_
+2	wykazały	wykazać	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+4	že	že	SCONJ	comp	_	8	mark	8:mark	_
+5	do	do	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen
+6	wywołania	privesti	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	obl	8:obl	_
+7	prěryvalo	prěryvańje	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	6	obj	6:obj	_
+8	uživši	užiti	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:obj	2:ccomp:obj	_
+9	niespotykanych	sųstrěćati	ADJ	ppas:pl:gen:f:imperf:neg	Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	11	acl	11:acl	_
+10	dotųd	dotųd	ADV	adv	PronType=Dem	9	advmod	9:advmod	_
+11	kolikostij	kolikosť	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	obj	8:obj	_
+12	danyh	dane	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	11	nmod:arg	11:nmod:arg	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01022005
+# text = Wielu naukowców twierdzi, że aby osiągnąć cele postawione w Paryżu, potrzebna będzie technologia pozwalająca na usuwanie węgla z powietrza.
+# text_en = Many scientists say that technology to remove carbon from the air will now be needed to meet the Paris targets.
+1	velje	velje	DET	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	2	det:numgov	2:det:numgov	_
+2	učenyh	učeny	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	3:nsubj	_
+3	tvŕdi	tvŕditi	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+5	že	že	SCONJ	comp	_	13	mark	13:mark	_
+6	aby	aby	SCONJ	comp	_	7	mark	7:mark	_
+7	dostignųti	dostignųti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	13	advcl	13:advcl	_
+8	mety	meta	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	7:obj	_
+9	postawione	postaviti	ADJ	ppas:pl:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	8:acl	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Loc
+11	Paryżu	Pariž	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	9:obl	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+13	potrěbna	potrěbny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	ccomp	3:ccomp	_
+14	by	byti	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	13:cop	_
+15	tehnologija	tehnologija	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	13:nsubj	_
+16	pozwalająca	pozvaljati	ADJ	pact:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	15	acl	15:acl	_
+17	na	na	ADP	prep:acc	AdpType=Prep	18	case	18:case	Case=Acc
+18	usuwanie	udaljati	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	obl:arg	16:obl:arg	_
+19	vųglja	vųgȯlj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obj	18:obj	_
+20	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	21	case	21:case	Case=Gen
+21	vȯzduha	vȯzduh	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	18	obl:arg	18:obl:arg	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01022027
+# text = To fantastycznie, że osiągnęli porozumienie paryskie, ale ich obecny wkład jest daleki od docelowego 1,5 stopnia.
+# text_en = It's fantastic that they got the Paris Agreement but their contributions at the moment are nowhere near the 1.5-degree target.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	2	cop	2:cop	_
+2	fantastycznie	fantastycznie	ADV	adv:pos	Degree=Pos	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+4	že	že	SCONJ	comp	_	5	mark	5:mark	_
+5	dostignųvši	dostignųti	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+6	dogovor	dogovor	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	5	obj	5:obj	_
+7	parižsko	parižsky	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	6:amod	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+9	no	no	CCONJ	conj	_	14	cc	14:cc	_
+10	jih	on	PRON	ppron3:pl:gen:n:ter:akc:npraep	Case=Gen|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	12	nmod	12:nmod	_
+11	tutčasny	tutčasny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	12:amod	_
+12	vklad	vklad	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	14:nsubj	_
+13	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
+14	daleky	daleky	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	0:root|2:conj	_
+15	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	18	case	18:case	Case=Gen
+16	docelowego	docelowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	18:amod	_
+17	1,5	1,5	NUM	num:sg:gen:m3:rec	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Card	18	nummod:gov	18:nummod:gov	_
+18	stųpnja	stųpenj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl:arg	14:obl:arg	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01023020
+# text = Zostało przeprowadzone od kwietnia do czerwca w pobliżu meksykańskiego wybrzeża.
+# text_en = It was conducted just off the Mexican coast from April to June.
+1	stalo	stati	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	2:aux:pass	_
+2	przeprowadzone	provesti	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	_
+3	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Gen
+4	cvětenja	cvětenj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	2:obl	_
+5	do	do	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen
+6	junija	junij	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	2:obl	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Loc
+8	okolině	okolina	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	7	fixed	7:fixed	_
+9	meksikanskogo	meksikansky	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	10:amod	_
+10	primoŕja	primoŕje	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	obl	2:obl	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01023034
+# text = Pozwoli to lepiej poznać naturę zmian środowiska, które objęły Ziemię i odesłały tak wiele gatunków — nie tylko dinozaury — w niebyt.
+# text_en = This will put new limits on the nature of the environmental changes that overtook the Earth and sent so many species - not just the dinosaurs - into oblivion.
+1	pozvoli	pozvoliti	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	1:nsubj	_
+3	dobro	dobro	ADV	adv:com	Degree=Cmp	4	advmod	4:advmod	_
+4	uznati	uznati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	_
+5	jestestvo	jestestvo	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	_
+6	směn	směna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	5:nmod	_
+7	obsrědiny	obsrědina	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	6	nmod	6:nmod	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+9	ktore	ktory	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	10	nsubj	10:nsubj|13:nsubj	_
+10	obsęgnųvša	obsęgnųti	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	_
+11	Ziemię	Zemja	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	obj	10:obj	_
+12	pa	pa	CCONJ	conj	_	13	cc	13:cc	_
+13	odslavša	odslati	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	6:acl:relcl|10:conj	_
+14	takto	takto	PART	part	_	15	advmod:emph	15:advmod:emph	_
+15	velje	velje	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	16	det:numgov	16:det:numgov	_
+16	gatunków	gatunek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obj	13:obj	_
+17	—	—	PUNCT	interp	PunctType=Dash	20	punct	20:punct	_
+18	ne	ne	PART	part	Polarity=Neg	19	advmod:neg	19:advmod:neg	_
+19	toliko	toliko	PART	part	_	20	advmod:emph	20:advmod:emph	_
+20	dinozavrov	dinozavr	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	16	parataxis:insert	16:parataxis:insert	_
+21	—	—	PUNCT	interp	PunctType=Dash	20	punct	20:punct	_
+22	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	23	case	23:case	Case=Acc
+23	nebyťje	nebyťje	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	13:obl	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01023043
+# text = Charakterystyczna dla materiału z tego meteorytu będzie prawdopodobnie wysoka zawartość irydu.
+# text_en = A telltale of this meteoritic material will likely be high levels of the element iridium.
+1	svojska	svojsky	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	_
+2	za	za	ADP	prep:gen	AdpType=Prep	3	case	3:case	Case=Gen
+3	tvoriva	tvorivo	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	1:obl	_
+4	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Gen
+5	tutoj	tutoj	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	6:det	_
+6	meteorita	meteorit	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod	_
+7	by	byti	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	cop	1:cop	_
+8	věrojętno	věrojętno	ADV	adv:pos	Degree=Pos	9	parataxis:insert	9:parataxis:insert	_
+9	vysoka	vysoky	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	10:amod	_
+10	sȯdŕžala	sȯdŕžańje	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	1:nsubj	_
+11	iridija	iridij	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod:arg	10:nmod:arg	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01024010
+# text = Nieco ponad 70% roślin wyhodowanych z nasion z Ziemi było wciąż żywych po 17 dniach — to niewiele więcej niż 66% w przypadku roślin wyhodowanych z nasion z kosmosu.
+# text_en = Just over 70% of the plants grown from Earth seeds were alive after 17 days - just slightly more than the plants grown from space seeds - just over 66%.
+1	Nieco	nieco	ADV	adv	_	2	advmod	2:advmod	_
+2	ponad	ponad	PART	part	_	3	advmod:emph	3:advmod:emph	_
+3	70	70	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	4	nummod:gov	4:nummod:gov	SpaceAfter=No
+4	%	%	SYM	interp	_	13	nsubj	13:nsubj	_
+5	råstlin	råstlina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	nmod:arg	4:nmod:arg	_
+6	wyhodowanych	råzvesti	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	acl	5:acl	_
+7	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Gen
+8	sěmen	sěmę	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	6	obl:arg	6:obl:arg	_
+9	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Gen
+10	Ziemi	Zemja	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod	_
+11	bylo	byti	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
+12	neprěstanno	neprěstanno	ADV	adv	_	13	advmod	13:advmod	_
+13	živyh	živy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	0	root	0:root	_
+14	poslě	poslě	ADP	prep:loc	AdpType=Prep	16	case	16:case	Case=Loc
+15	17	17	NUM	num:pl:loc:m3:congr	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
+16	dnah	denj	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	13:obl	_
+17	—	—	PUNCT	interp	PunctType=Dash	20	punct	20:punct	_
+18	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	20	cop	20:cop	_
+19	nemnogo	nemnogo	ADV	adv	_	20	advmod	20:advmod	_
+20	vęće	vęće	PART	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	13	conj	0:root|13:conj	_
+21	neželi	neželi	SCONJ	comp	ConjType=Comp	23	mark	23:mark	_
+22	66	66	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	23	nummod:gov	23:nummod:gov	SpaceAfter=No
+23	%	%	SYM	interp	_	20	obl:cmpr	20:obl:cmpr	_
+24	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	26	case	26:case	Case=Loc
+25	slučaju	slučaj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	fixed	24:fixed	_
+26	råstlin	råstlina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	20	nmod	20:nmod	_
+27	wyhodowanych	råzvesti	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	26	acl	26:acl	_
+28	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	29	case	29:case	Case=Gen
+29	sěmen	sěmę	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	27	obl:arg	27:obl:arg	_
+30	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	31	case	31:case	Case=Gen
+31	kosmosa	kosmos	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	29:nmod	SpaceAfter=No
+32	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	_
+
+# sent_id = n01024013
+# text = Wyniki tego eksperymentu stanowią kolejny dowód, że nasiona rukoli mogą być transportowane i przechowywane na Międzynarodowej Stacji Kosmicznej przez 6 miesięcy bez wyraźnego wpływu na możliwość kiełkowania i wzrostu na Ziemi.
+# text_en = The results from this experiment provides further support that rocket seeds can be flown and stored on the International Space Station for six months without having any significant impacts on their ability to germinate and grow on Earth.
+1	naslědky	naslědȯk	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj	_
+2	tutoj	tutoj	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	3	det	3:det	_
+3	pokusa	pokus	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod:arg	1:nmod:arg	_
+4	prědstavjajųt	prědstavjati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	vslědny	vslědny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	_
+6	dovod	dovod	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	xcomp:pred	4:xcomp:pred	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
+8	že	že	SCONJ	comp	_	11	mark	11:mark	_
+9	sěmena	sěmę	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	11:nsubj	_
+10	rukoli	rukola	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	9:nmod	_
+11	mogųt	mogti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	6:ccomp	_
+12	byti	byti	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	13	aux	13:aux|15:aux	_
+13	transportowane	voziti	ADJ	ppas:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	11	ccomp	11:ccomp	_
+14	pa	pa	CCONJ	conj	_	15	cc	15:cc	_
+15	przechowywane	przechowywać	ADJ	ppas:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	conj	11:ccomp|13:conj	_
+16	na	na	ADP	prep:loc	AdpType=Prep	18	case	18:case	Case=Loc
+17	međunarodnoj	međunarodny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod:flat	18:amod:flat	_
+18	stanciji	stancija	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	15	obl	15:obl	_
+19	kosmičnoj	kosmičny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod:flat	18:amod:flat	_
+20	prěz	prěz	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	22	case	22:case	Case=Acc
+21	6	6	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	22	nummod:gov	22:nummod:gov	_
+22	měsęcev	měsęc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	15:obl	_
+23	bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	25	case	25:case	Case=Gen
+24	jasny	jasny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	25:amod	_
+25	vplyva	vplyv	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	13:obl|15:obl	_
+26	na	na	ADP	prep:acc	AdpType=Prep	27	case	27:case	Case=Acc
+27	možnosť	možnosť	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	25	nmod:arg	25:nmod:arg	_
+28	kiełkowania	kiełkować	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	27	nmod:arg	27:nmod:arg	_
+29	pa	pa	CCONJ	conj	_	30	cc	30:cc	_
+30	vȯzråsta	vȯzråst	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	conj	27:nmod:arg|28:conj	_
+31	na	na	ADP	prep:loc	AdpType=Prep	32	case	32:case	Case=Loc
+32	Ziemi	Zemja	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	28	nmod	28:nmod|30:nmod	SpaceAfter=No
+33	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01025025
+# text = — Wciąż jest coś odpychającego w całej idei kupowania i noszenia części ciała innych ludzi — mówi.
+# text_en = "There is still a 'yuk' factor to the whole idea of buying and wearing other people's body parts," she says.
+1	—	—	PUNCT	interp	PunctType=Dash	17	punct	17:punct	_
+2	neprěstanno	neprěstanno	ADV	adv	_	3	advmod	3:advmod	_
+3	by	byti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis:obj	17:parataxis:obj	_
+4	něčto	něčto	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	_
+5	gnusnogo	gnusny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	4:amod	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Loc
+7	cěloj	cěly	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	pojęťju	pojęťje	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	obl:arg	3:obl:arg	_
+9	kupowania	kupovati	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	nmod:arg	8:nmod:arg	_
+10	pa	pa	CCONJ	conj	_	11	cc	11:cc	_
+11	noszenia	nositi	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	conj	8:nmod:arg|9:conj	_
+12	poděla	poděl	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	obj	9:obj|11:obj	_
+13	těla	tělo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	12	nmod:arg	12:nmod:arg	_
+14	ini	iny	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	15:amod	_
+15	ljudij	člověk	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	nmod	13:nmod	_
+16	—	—	PUNCT	interp	PunctType=Dash	17	punct	17:punct	_
+17	mȯlvi	mȯlviti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	17	punct	17:punct	_
+
+# sent_id = n01025040
+# text = Tarlo wyjaśnia, że w Chinach włosy zwykle poddaje się płukaniu chemicznemu, aby całkowicie usunąć oskórek.
+# text_en = In China the hair is typically put in a chemical bath to remove the cuticle completely, Tarlo explains.
+1	Tarlo	Tarlo	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	objasnjaje	objasnjati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+4	že	že	SCONJ	comp	_	9	mark	9:mark	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Loc
+6	Chinach	Kitaj	PROPN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	9	obl	9:obl	_
+7	vlåsy	vlås	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	9:obj	_
+8	obyčno	obyčno	ADV	adv:pos	Degree=Pos	9	advmod	9:advmod	_
+9	poddavaje	poddavati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp:obj	2:ccomp:obj	_
+10	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	9	expl:pv	9:expl:pv	_
+11	płukaniu	płukanie	NOUN	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing	9	iobj	9:iobj	_
+12	hemičnomu	hemičny	ADJ	adj:sg:dat:n:pos	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	11:amod	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	_
+14	aby	aby	SCONJ	comp	_	16	mark	16:mark	_
+15	kompletno	kompletno	ADV	adv:pos	Degree=Pos	16	advmod	16:advmod	_
+16	udaliti	udaliti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	9:advcl	_
+17	oskórek	oskórek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	16:obj	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01026004
+# text = „Dziś wieczorem wymierzamy karę za pomocą świateł drogowych” — głosi post.
+# text_en = "Tonight we are carrying out punishments using a high beam," the post reads.
+1	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	12	punct	12:punct	SpaceAfter=No
+2	tutdenj	tutdenj	ADV	adv	_	4	advmod	4:advmod	_
+3	večerom	večer	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	2:obl	_
+4	råzměrjajemȯ	råzměrjati	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis:obj	12:parataxis:obj	_
+5	kaznj	kaznj	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	_
+6	za	za	ADP	prep:inst	AdpType=Prep	8	case	8:case	Case=Ins
+7	pomoćjų	pomoć	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	6	fixed	6:fixed	_
+8	světȯl	světlo	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	4	obl	4:obl	_
+9	dråžnyh	dråžny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	8	amod	8:amod	SpaceAfter=No
+10	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	12	punct	12:punct	_
+11	—	—	PUNCT	interp	PunctType=Dash	12	punct	12:punct	_
+12	glåsi	glåsiti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+13	post	post	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	12	punct	12:punct	_
+
+# sent_id = n01027007
+# text = Kim oni są?
+# text_en = Who are they?
+1	kym	kto	PRON	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing|PronType=Int	0	root	0:root	_
+2	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	nsubj	1:nsubj	_
+3	by	byti	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	SpaceAfter=No
+4	?	?	PUNCT	interp	PunctType=Qest	1	punct	1:punct	_
+
+# sent_id = n01027030
+# text = Wiele miejsca w debacie po stronie Demokratów poświęcono w tym roku męskiej tożsamości.
+# text_en = Much of the debate, from the Democratic side this year, has been about white male identity.
+1	velje	velje	DET	num:sg:acc:n:rec	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	2	det:numgov	2:det:numgov	_
+2	města	město	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	8	obj	8:obj	_
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Loc
+4	råzpravě	råzprava	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	obl:arg	8:obl:arg	_
+5	poslě	poslě	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc
+6	stråně	stråna	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	obl	8:obl	_
+7	demokratov	demokrat	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	nmod:arg	6:nmod:arg	_
+8	poświęcono	poświęcić	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Loc
+10	tutoj	tutoj	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	11	det	11:det	_
+11	roku	rok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	8:obl	_
+12	mųžskoj	mųžsky	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	_
+13	identiteta	identitet	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	iobj	8:iobj	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
+
+# sent_id = n01027041
+# text = Zapytałem ją później, czy rozumie, dlaczego ludzie mogą zagłosować na Trumpa.
+# text_en = I asked her afterwards if she understood why people might vote for Trump.
+1-2	Zapytałem	_	_	_	_	_	_	_	_
+1	zapytal	zapytati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	byh	byti	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	1:aux:clitic	_
+3	jų	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	1:obj	_
+4	pozdno	pozdno	ADV	adv:com	Degree=Cmp	1	advmod	1:advmod	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+6	li	li	PART	part	PartType=Int	7	advmod	7:advmod	_
+7	råzuměje	råzuměti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
+9	začto	začto	ADV	adv	PronType=Int	11	advmod	11:advmod	_
+10	ljudi	člověk	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	11:nsubj	_
+11	mogųt	mogti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	7:ccomp	_
+12	zagłosować	zagłosować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	11:xcomp	_
+13	na	na	ADP	prep:acc	AdpType=Prep	14	case	14:case	Case=Acc
+14	Trumpa	Trump	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	12:obl:arg	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01027049
+# text = Nie każdy może wznieść się ponad to.
+# text_en = Not everyone can rise above it.
+1	ne	ne	PART	part	Polarity=Neg	2	advmod:neg	2:advmod:neg	_
+2	vsekto	vsekto	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	3	nsubj	3:nsubj	_
+3	može	mogti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	vȯzvysiti	vȯzvysiti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	3:xcomp	_
+5	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+6	ponad	ponad	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	7	case	7:case	Case=Acc
+7	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obl:arg	4:obl:arg	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01028022
+# text = — Na szczęście ktoś z Sony Australia zwrócił uwagę: „A tak swoją drogą, zauważyliście to?” — mówi Pall.
+# text_en = "Luckily, someone in Sony Australia was like, 'Hey, by the way, did you guys notice this?'" says Pall.
+1	—	—	PUNCT	interp	PunctType=Dash	23	punct	23:punct	_
+2	na	na	ADP	prep:acc	AdpType=Prep	8	parataxis:insert	8:parataxis:insert	Case=Acc
+3	ščęsťje	ščęsťje	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	2	fixed	2:fixed	_
+4	někto	někto	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	8:nsubj	_
+5	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Gen
+6	Sony	Sony	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	nmod	4:nmod	_
+7	Australia	Avstralija	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nmod	6:nmod	_
+8	vŕnųl	vŕnųti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	parataxis:obj	23:parataxis:obj	_
+9	vnimańje	vnimańje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No
+10	:	:	PUNCT	interp	PunctType=Colo	8	punct	8:punct	_
+11	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	17	punct	17:punct	SpaceAfter=No
+12	pa	pa	PART	part	_	13	advmod:emph	13:advmod:emph	_
+13	takto	takto	ADV	adv:pos	Degree=Pos|PronType=Dem	15	advmod	15:advmod	_
+14	svojejų	svoj	DET	adj:sg:inst:f:pos	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det:poss	15:det:poss	_
+15	drågojų	dråga	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	17	parataxis:insert	17:parataxis:insert	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
+17-18	zauważyliście	_	_	_	_	_	_	_	_
+17	zauvaživši	zauvažiti	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis:obj	8:parataxis:obj	_
+18	byste	byti	AUX	aglt:pl:sec:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short	17	aux:clitic	17:aux:clitic	_
+19	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	17:obj	SpaceAfter=No
+20	?	?	PUNCT	interp	PunctType=Qest	17	punct	17:punct	SpaceAfter=No
+21	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	17	punct	17:punct	_
+22	—	—	PUNCT	interp	PunctType=Dash	23	punct	23:punct	_
+23	mȯlvi	mȯlviti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+24	Pall	Pall	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	23:nsubj	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	23	punct	23:punct	_
+
+# sent_id = n01029014
+# text = Wcześniej w tym roku Seagalowi przyznano obywatelstwo serbskie po tym, jak zaoferował założenie szkoły sztuk walki w stołecznym Belgradzie.
+# text_en = Earlier this year Seagal was given Serbian nationality after offering to set up a martial arts school in the capital Belgrade.
+1	rano	rano	ADV	adv:com	Degree=Cmp	6	advmod	6:advmod	_
+2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Loc
+3	tutoj	tutoj	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	_
+4	roku	rok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	6:obl	_
+5	Seagalowi	Seagal	PROPN	subst:sg:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing	6	iobj	6:iobj	_
+6	pripustivši	pripustiti	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	gråđanstvo	gråđanstvo	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	6	obj	6:obj	_
+8	sŕbsko	sŕbsky	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	7:amod	_
+9	poslě	poslě	ADP	prep:loc	AdpType=Prep	10	case	10:case	Case=Loc
+10	tym	to	PRON	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	obl	6:obl	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+12	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Rel	13	advmod	13:advmod	_
+13	prědložil	prědložiti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl:relcl	_
+14	założenie	založiti	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	13	obj	13:obj	_
+15	učilišča	učilišče	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	obj	14:obj	_
+16	umětnostij	umětnosť	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	15	nmod:arg	15:nmod:arg	_
+17	boja	boj	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	16:nmod	_
+18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	20:case	Case=Loc
+19	stoličny	stoličny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	20:amod	_
+20	Belgradzie	Bělgråd	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	14:nmod	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
+
+# sent_id = n01030008
+# text = Według miejskiego departamentu policji, walka wywiązała się po tym, jak „duża grupa ludzi… przedstawiających się jako władze dzielnicy” pojawiła się we wtorek na planie.
+# text_en = According to the city's police department, a fight broke out after "a large group of people... who identified themselves as district authorities" arrived on set on Tuesday.
+1	podȯlg	podȯlg	ADP	prep:gen	AdpType=Prep	3	case	3:case	Case=Gen
+2	grådsky	grådsky	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	_
+3	departamenta	departament	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	parataxis:insert	7:parataxis:insert	_
+4	policije	policija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod:arg	3:nmod:arg	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	3	punct	3:punct	_
+6	boj	boj	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	_
+7	wywiązała	wywiązać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
+9	poslě	poslě	ADP	prep:loc	AdpType=Prep	10	case	10:case	Case=Loc
+10	tym	to	PRON	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	7:obl	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	24	punct	24:punct	_
+12	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Rel	24	advmod	24:advmod	_
+13	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	15	punct	15:punct	SpaceAfter=No
+14	velika	veliky	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	_
+15	skupina	skupina	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	24:nsubj	_
+16	ljudij	člověk	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	15	nmod:arg	15:nmod:arg	SpaceAfter=No
+17	…	…	PUNCT	interp	PunctType=Elip	16	punct	16:punct	_
+18	przedstawiających	prědstavjati	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	16	acl	16:acl	_
+19	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	18	expl:pv	18:expl:pv	_
+20	ako	ako	SCONJ	comp	ConjType=Pred	21	mark	21:mark	_
+21	vlasti	vlasť	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	18	obl	18:obl	_
+22	okrųga	okrųg	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	21	nmod:arg	21:nmod:arg	SpaceAfter=No
+23	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	15	punct	15:punct	_
+24	pojawiła	pojawić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl:relcl	_
+25	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	24	expl:pv	24:expl:pv	_
+26	we	w	ADP	prep:acc:wok	AdpType=Prep|Variant=Long	27	case	27:case	Case=Acc
+27	vtorȯk	vtorȯk	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	24:obl	_
+28	na	na	ADP	prep:loc	AdpType=Prep	29	case	29:case	Case=Loc
+29	planu	plan	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	24:obl	SpaceAfter=No
+30	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01031005
+# text = Naukowcy badają możliwości męskiej antykoncepcji hormonalnej od około 20 lat.
+# text_en = Researchers have been investigating potential for male hormonal contraceptives for around 20 years.
+1	učeni	učeny	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	2:nsubj	_
+2	råziskyvajųt	råziskyvati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	možnosti	možnosť	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	obj	2:obj	_
+4	mųžskoj	mųžsky	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
+5	kontracepcije	kontracepcija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod:arg	3:nmod:arg	_
+6	hormonalnej	hormonalny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	_
+7	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Gen
+8	okolo	okolo	PART	part	_	9	advmod:emph	9:advmod:emph	_
+9	20	20	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
+10	rokov	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	2:obl	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01031021
+# text = – To był pojedynczy krok na długiej drodze do ustalenia właściwego połączenia dla uzyskania męskiej antykoncepcji hormonalnej — dodał.
+# text_en = He added: "This has been one step in a long journey of finding the right combination for male hormonal contraception."
+1	–	–	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
+2	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	cop	5:cop	_
+3	byl	byti	AUX	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
+4	jedinstveny	jedinstveny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	5:amod	_
+5	postųp	postųp	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	parataxis:obj	19:parataxis:obj	_
+6	na	na	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc
+7	dȯlgoj	dȯlgy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	8:amod	_
+8	drågě	dråga	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	nmod	5:nmod	_
+9	do	do	ADP	prep:gen	AdpType=Prep	10	case	10:case	Case=Gen
+10	ustalenia	ustaliti	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	nmod	8:nmod	_
+11	vlastnogo	vlastny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
+12	svęźa	svęź	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	obj	10:obj	_
+13	za	za	ADP	prep:gen	AdpType=Prep	14	case	14:case	Case=Gen
+14	uzyskania	iziskati	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	12	nmod:arg	12:nmod:arg	_
+15	mųžskoj	mųžsky	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	_
+16	kontracepcije	kontracepcija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	obj	14:obj	_
+17	hormonalnej	hormonalny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	_
+18	—	—	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
+19	pridal	pridati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	_
+
+# sent_id = n01035030
+# text = Powiedział również, że Klein był niechętny do komunikacji, współpracy ani opuszczenia swojej celi na niższym poziomie budynku sądu, aby uczestniczyć we własnym przesłuchaniu.
+# text_en = He also said Klein was uncommunicative, uncooperative and unwilling to walk up from cells under the courthouse to attend his hearing.
+1	skazal	skazati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	również	również	PART	part	_	1	advmod:emph	1:advmod:emph	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+4	že	že	SCONJ	comp	_	7	mark	7:mark	_
+5	Klein	Klein	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	_
+6	byl	byti	AUX	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+7	neohotny	neohotny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	ccomp:obj	1:ccomp:obj	_
+8	do	do	ADP	prep:gen	AdpType=Prep	9	case	9:case|11:case|13:case	Case=Gen
+9	komunikacije	komunikacija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
+11	sųtrudničstva	sųtrudničstvo	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	conj	7:obl:arg|9:conj	_
+12	ani	ani	CCONJ	conj	_	13	cc	13:cc	_
+13	opuszczenia	propustiti	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	conj	7:obl:arg|9:conj	_
+14	svojej	svoj	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det:poss	15:det:poss	_
+15	klětky	klětka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	obj	13:obj	_
+16	na	na	ADP	prep:loc	AdpType=Prep	18	case	18:case	Case=Loc
+17	nizky	nizky	ADJ	adj:sg:loc:m3:com	Animacy=Inan|Case=Loc|Degree=Cmp|Gender=Masc|Number=Sing	18	amod	18:amod	_
+18	uråvnju	uråvenj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	15:nmod	_
+19	budynka	budynȯk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod:arg	18:nmod:arg	_
+20	sųda	sųd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod:arg	19:nmod:arg	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	23	punct	23:punct	_
+22	aby	aby	SCONJ	comp	_	23	mark	23:mark	_
+23	učęstvovati	učęstvovati	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	13	advcl	13:advcl	_
+24	we	w	ADP	prep:loc:wok	AdpType=Prep|Variant=Long	26	case	26:case	Case=Loc
+25	vlastnom	vlastny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	26:amod	_
+26	råzpytyvalo	råzpytyvańje	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	23	obl:arg	23:obl:arg	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01036002
+# text = Stowarzyszenie reprezentujące agentów nieruchomości w Ontario twierdzi, że należy zrobić więcej w celu ochrony klientów i ukarania agentów, którym udowodniono nieetyczne zachowania.
+# text_en = The association that represents real estate agents in Ontario says more needs to be done to protect consumers and punish agents found to have engaged in unethical behaviour.
+1	svęź	svęź	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
+2	reprezentujące	reprezentovati	ADJ	pact:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	1	acl	1:acl	_
+3	pověrjennikov	pověrjennik	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	2	obj	2:obj	_
+4	nedvižimosti	nedvižimosť	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod:arg	3:nmod:arg	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Loc
+6	Ontario	Ontario	PROPN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	2	obl	2:obl	_
+7	tvŕdi	tvŕditi	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+9	že	že	SCONJ	comp	_	10	mark	10:mark	_
+10	prinaleži	prinaležati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	7:ccomp	_
+11	sdělati	sdělati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	10:xcomp	_
+12	vęće	vęće	PART	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	11	obj	11:obj	_
+13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	15:case|18:case	Case=Loc
+14	metě	meta	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	fixed	13:fixed	_
+15	zaščity	zaščita	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	obl	11:obl	_
+16	zakaznikov	zakaznik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	15	nmod:arg	15:nmod:arg	_
+17	pa	pa	CCONJ	conj	_	18	cc	18:cc	_
+18	ukarania	pokarati	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	15	conj	11:obl|15:conj	_
+19	pověrjennikov	pověrjennik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	18	obj	18:obj	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	22	punct	22:punct	_
+21	ktori	ktory	DET	adj:pl:dat:m1:pos	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	22	iobj	22:iobj	_
+22	dokazavši	dokazati	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	19:acl:relcl	_
+23	nieetyczne	nieetyczny	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	24	amod	24:amod	_
+24	vođeńja	vođeńje	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	22	obj	22:obj	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01036033
+# text = Największy wymiar grzywny, jaką RECO może obecnie nałożyć na agenta, wynosi 25000 dolarów.
+# text_en = Currently, the maximum fine RECO can levy against an agent is $25,000.
+1	veliky	veliky	ADJ	adj:sg:nom:m3:sup	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	2	amod	2:amod	_
+2	wymiar	wymiar	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	13:nsubj	_
+3	kary	kara	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:arg	2:nmod:arg	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+5	kakų	kaky	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	9	obj	9:obj	_
+6	RECO	RECO	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	7:nsubj	_
+7	može	mogti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	2:acl:relcl	_
+8	sejčasno	sejčasno	ADV	adv:pos	Degree=Pos	9	advmod	9:advmod	_
+9	prisųditi	prisųditi	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	_
+10	na	na	ADP	prep:acc	AdpType=Prep	11	case	11:case	Case=Acc
+11	pověrjennika	pověrjennik	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	9	obl:arg	9:obl:arg	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+13	iznosi	iznositi	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	25000	25000	NUM	num:pl:acc:m2:rec	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	15	nummod:gov	15:nummod:gov	_
+15	dolarov	dolar	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	13	iobj	13:iobj	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	_
+
+# sent_id = n01038021
+# text = — Widzimy, że wiele krajów, szczególnie te przyczyniające się od niedawna do dużej emisji, jak Brazylia, RPA, Indie i China, jest gotowych odgrywać rolę w jej ograniczaniu  — powiedział Guilbeault.
+# text_en = "We are seeing many, many countries and especially large new emitters like Brazil, South Africa, India and China stepping up to the plate in terms of playing a role in reducing emissions," said Guilbeault.
+1	—	—	PUNCT	interp	PunctType=Dash	35	punct	35:punct	_
+2	zrějemȯ	zrěti	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	35	parataxis:obj	35:parataxis:obj	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	28	punct	28:punct	_
+4	že	že	SCONJ	comp	_	28	mark	28:mark	_
+5	velje	velje	DET	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	6	det:numgov	6:det:numgov	_
+6	krajev	kraj	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nsubj	28:nsubj	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	_
+8	najmě	najmě	ADV	adv:pos	Degree=Pos	9	advmod	9:advmod	_
+9	tute	tutoj	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	amod	6:amod	_
+10	przyczyniające	przyczyniać	ADJ	pact:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	9	acl	9:acl	_
+11	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	10:expl:pv	_
+12	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Gen
+13	nedavny	nedavny	ADJ	adjp:gen	PrepCase=Pre	10	obl	10:obl	_
+14	do	do	ADP	prep:gen	AdpType=Prep	16	case	16:case	Case=Gen
+15	velikoj	veliky	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	_
+16	emisije	emisija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	obl:arg	10:obl:arg	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	_
+18	jak	jak	ADP	prep:nom	AdpType=Prep	19	case	19:case|21:case|23:case|25:case	Case=Nom
+19	Brazylia	Brazilija	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nmod	9:nmod	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	21	punct	21:punct	_
+21	RPA	RPA	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	19	conj	9:nmod|19:conj	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	23	punct	23:punct	_
+23	Indie	Indija	PROPN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	19	conj	9:nmod|19:conj	_
+24	pa	pa	CCONJ	conj	_	25	cc	25:cc	_
+25	China	Kitaj	PROPN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	19	conj	9:nmod|19:conj	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	_
+27	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	28:cop	_
+28	gotovyh	gotovy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	2	ccomp	2:ccomp	_
+29	odgrywać	odgrywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	28:xcomp	_
+30	rolę	rola	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	29	obj	29:obj	_
+31	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	33	case	33:case	Case=Loc
+32	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	33	obj	33:obj	_
+33	obmeđatu	ograničati	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	29	obl:arg	29:obl:arg	_
+34	—	—	PUNCT	interp	PunctType=Dash	35	punct	35:punct	_
+35	skazal	skazati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+36	Guilbeault	Guilbeault	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	35:nsubj	SpaceAfter=No
+37	.	.	PUNCT	interp	PunctType=Peri	35	punct	35:punct	_
+
+# sent_id = n01039013
+# text = Tymczasem Clinton i jej sojusznicy starają się utrzymać w centrum uwagi Trumpa, przekonując, że jego obraźliwe uwagi o kobietach i mniejszościach oraz temperament czynią go niewłaściwym kandydatem na ten urząd.
+# text_en = Clinton and allies, meanwhile, are seeking to keep the spotlight on Trump, charging that his disparaging comments about women and minorities, and his temperament make him unfit for office.
+1	Tymczasem	tymczasem	CCONJ	conj	_	6	cc	6:cc	_
+2	Clinton	Clinton	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	_
+3	pa	pa	CCONJ	conj	_	5	cc	5:cc	_
+4	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	nmod	5:nmod	_
+5	sȯjųzniki	sȯjųznik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	conj	2:conj|6:nsubj	_
+6	starają	starać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	6:expl:pv	_
+8	podtrimati	podtrimati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	6:xcomp	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Loc
+10	srědišču	srědišče	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	8	obl	8:obl	_
+11	vnimańja	vnimańje	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod:arg	10:nmod:arg	_
+12	Trumpa	Trump	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+14	uvěrjajųći	uvěrjati	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	6:advcl	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	26	punct	26:punct	_
+16	že	že	SCONJ	comp	_	26	mark	26:mark	_
+17	on	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	19	nmod	19:nmod|25:nmod	_
+18	urazlive	urazlivy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	19	amod	19:amod	_
+19	vnimańje	vnimańje	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	26:nsubj	_
+20	o	o	ADP	prep:loc	AdpType=Prep	21	case	21:case|23:case	Case=Loc
+21	ženah	žena	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	19	nmod:arg	19:nmod:arg	_
+22	pa	pa	CCONJ	conj	_	23	cc	23:cc	_
+23	menšinstvah	menšinstvo	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	21	conj	19:nmod:arg|21:conj	_
+24	oraz	oraz	CCONJ	conj	_	25	cc	25:cc	_
+25	nråv	nråv	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	conj	19:conj|26:nsubj	_
+26	činęt	činiti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	14:ccomp	_
+27	on	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	26	obj	26:obj	_
+28	negodny	negodny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	29:amod	_
+29	kandidatom	kandidat	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	26	xcomp:pred	26:xcomp:pred	_
+30	na	na	ADP	prep:acc	AdpType=Prep	32	case	32:case	Case=Acc
+31	tutoj	tutoj	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	32	det	32:det	_
+32	uręd	uręd	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	nmod:arg	29:nmod:arg	SpaceAfter=No
+33	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
+
+# sent_id = n01039018
+# text = Ludzie, nie tego potrzebujemy w naszym kraju.
+# text_en = That's not what we need in our country, folks.
+1	ljudi	člověk	NOUN	subst:pl:voc:m1	Animacy=Hum|Case=Voc|Gender=Masc|Number=Plur	5	vocative	5:vocative	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	_
+3	ne	ne	PART	part	Polarity=Neg	4	advmod:neg	4:advmod:neg	_
+4	tego	to	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	iobj	5:iobj	_
+5	potrěbujemȯ	potrěbovati	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Loc
+7	naš	naš	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	8:det:poss	_
+8	kraju	kraj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	5:obl	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = n01040028
+# text = Uczniowie tacy jak Rai spotykali się w szkole z psychologami, aby rozmawiać o tym, co się wydarzyło, ale, jak sama powiedziała, najwięcej pociechy przyniósł jej kontakt z przyjaciółmi.
+# text_en = Students like Rai have been meeting with counsellors at the school to talk about what happened, but she said the biggest comfort has come from seeing her friends.
+1	učeniki	učenik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	_
+2	tacy	taky	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	1	det	1:det	_
+3	jak	jak	SCONJ	comp	ConjType=Comp	4	mark	4:mark	_
+4	Rai	Rai	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	obl:cmpr	2:obl:cmpr	_
+5	sųstrěćavši	sųstrěćati	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Loc
+8	učilišču	učilišče	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	obl	5:obl	_
+9	iz	iz	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Ins
+10	psihologami	psiholog	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	5	obl:arg	5:obl:arg	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+12	aby	aby	SCONJ	comp	_	13	mark	13:mark	_
+13	råzgovarjati	råzgovarjati	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	5	advcl	5:advcl	_
+14	o	o	ADP	prep:loc	AdpType=Prep	15	case	15:case	Case=Loc
+15	tym	to	PRON	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	13	obl:arg	13:obl:arg	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	_
+17	čto	čto	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	19	nsubj	19:nsubj	_
+18	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	19	expl:pv	19:expl:pv	_
+19	wydarzyło	wydarzyć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	15:acl:relcl	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	29	punct	29:punct	_
+21	no	no	CCONJ	conj	_	29	cc	29:cc	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	25	punct	25:punct	_
+23	jak	jak	SCONJ	comp	_	25	mark	25:mark	_
+24	sama	samy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	nsubj	25:nsubj	_
+25	skazala	skazati	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	parataxis:insert	29:parataxis:insert	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	25	punct	25:punct	_
+27	najvęće	najvęće	PART	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	28	det:numgov	28:det:numgov	_
+28	utěšeńja	utěšeńje	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	29	nsubj	29:nsubj	_
+29	prinesl	prinesti	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	0:root|5:conj	_
+30	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	29	iobj	29:iobj	_
+31	kontakt	kontakt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	obj	29:obj	_
+32	iz	iz	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	33	case	33:case	Case=Ins
+33	prijateljami	prijatelj	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	31	nmod:arg	31:nmod:arg	SpaceAfter=No
+34	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = n01041018
+# text = — Lekarze nie dysponują takimi środkami, mogą tylko wypisać receptę albo zrobić zastrzyk — powiedziała Mailis.
+# text_en = "Physicians don't have these tools, they have only a prescription pad and an injection," Mailis said.
+1	—	—	PUNCT	interp	PunctType=Dash	16	punct	16:punct	_
+2	lěkari	lěkaŕ	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj|8:nsubj	_
+3	ne	ne	PART	part	Polarity=Neg	4	advmod:neg	4:advmod:neg	_
+4	råzporęđajųt	råzporęđati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis:obj	16:parataxis:obj	_
+5	takimi	taky	DET	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	6	det	6:det	_
+6	srědiščami	srědišče	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	iobj	4:iobj	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+8	mogųt	mogti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj|16:parataxis:obj	_
+9	toliko	toliko	PART	part	_	10	advmod:emph	10:advmod:emph	_
+10	wypisać	wypisać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	8:xcomp	_
+11	recept	recept	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	obj	10:obj	_
+12	ili	ili	CCONJ	conj	_	13	cc	13:cc	_
+13	sdělati	sdělati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	8:xcomp|10:conj	_
+14	injekcijų	injekcija	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	13:obj	_
+15	—	—	PUNCT	interp	PunctType=Dash	16	punct	16:punct	_
+16	skazala	skazati	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+17	Mailis	Mailis	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	16:nsubj	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	16	punct	16:punct	_
+
+# sent_id = n01042004
+# text = W tym tygodniu Gerry McNeilly, niezależny szef nadzoru policji w Ontario, przedstawił podstawy swojego raportu po pojawieniu się „niepokojących pytań” o zachowanie funkcjonariuszy wobec rdzennej ludności.
+# text_en = The Ontario Independent Police Review Director, Gerry McNeilly, set the terms for his review this week after "alarming questions" were raised about how officers interact with Indigenous peoples.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Loc
+2	tutoj	tutoj	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	3:det	_
+3	tydnju	tydenj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	14:obl	_
+4	Gerry	Gerry	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	14:nsubj	_
+5	McNeilly	McNeilly	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	flat	4:flat	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+7	samostojny	samostojny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	8:amod	_
+8	vŕhnik	vŕhnik	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	appos	4:appos	_
+9	nadzora	nadzor	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod:arg	8:nmod:arg	_
+10	policije	policija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod:arg	9:nmod:arg	_
+11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	12:case	Case=Loc
+12	Ontario	Ontario	PROPN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	10	nmod	10:nmod	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+14	prědstavil	prědstaviti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+15	zaklady	zaklad	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	14	obj	14:obj	_
+16	svoj	svoj	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det:poss	17:det:poss	_
+17	raporta	raport	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod:arg	15:nmod:arg	_
+18	poslě	poslě	ADP	prep:loc	AdpType=Prep	19	case	19:case	Case=Loc
+19	pojawieniu	pojawić	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	obl	14:obl	_
+20	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	19	expl:pv	19:expl:pv	_
+21	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	23	punct	23:punct	SpaceAfter=No
+22	bezpokojęćih	bezpokojęći	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	23	amod	23:amod	_
+23	zapytalo	zapytańje	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	19	nsubj	19:nsubj	SpaceAfter=No
+24	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	23	punct	23:punct	_
+25	o	o	ADP	prep:acc	AdpType=Prep	26	case	26:case	Case=Acc
+26	vođeńje	vođeńje	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	23	nmod	23:nmod	_
+27	urędnikov	urędnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	26	nmod	26:nmod	_
+28	odnosno	odnosno	ADP	prep:gen	AdpType=Prep	30	case	30:case	Case=Gen
+29	domorodnoj	domorodny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	30:amod	_
+30	ljudstva	ljudstvo	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	26	nmod:arg	26:nmod:arg	SpaceAfter=No
+31	.	.	PUNCT	interp	PunctType=Peri	14	punct	14:punct	_
+
+# sent_id = n01042008
+# text = Raport analizuje również przypisywane funkcjonariuszom z północnego Ontario publikacje z września, które wywołały burzę na Facebooku.
+# text_en = The review is also investigating inflammatory Facebook posts from September, alleged to come from police officers in the northern Ontario city.
+1	raport	raport	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	analizuje	analizovati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	również	również	PART	part	_	9	advmod:emph	9:advmod:emph	_
+4	przypisywane	pripisyvati	ADJ	ppas:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	acl	9:acl	_
+5	urędnikam	urędnik	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	4	iobj	4:iobj	_
+6	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Gen
+7	sěvernogo	sěverny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	8:amod	_
+8	Ontario	Ontario	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	nmod	5:nmod	_
+9	publikacije	publikacija	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	obj	2:obj	_
+10	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Gen
+11	vresenja	vresenj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+13	ktore	ktory	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	14	nsubj	14:nsubj	_
+14	privedša	privesti	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
+15	burjų	burja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	obj	14:obj	_
+16	na	na	ADP	prep:loc	AdpType=Prep	17	case	17:case	Case=Loc
+17	Facebooku	facebook	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	14:obl	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01043014
+# text = Jej roczny budżet przekracza 1,4 miliarda dolarów i zatrudnia ona ponad 6000 osób.
+# text_en = Its annual budget is more than $1.4 billion, and it employs more than 6,000 people.
+1	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	nmod	3:nmod	_
+2	ročny	ročny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	_
+3	budžet	budžet	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+4	prěstųpaje	prěstųpati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	1,4	1,4	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
+6	miliarda	miliard	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	flat	5:flat	_
+7	dolarov	dolar	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	4	obj	4:obj	_
+8	pa	pa	CCONJ	conj	_	9	cc	9:cc	_
+9	najmaje	najmati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+10	ona	on	PRON	ppron3:sg:nom:f:ter:akc:npraep	Case=Nom|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	9	nsubj	9:nsubj	_
+11	ponad	ponad	PART	part	_	12	advmod:emph	12:advmod:emph	_
+12	6000	6000	NUM	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumForm=Digit|NumType=Card	13	nummod:gov	13:nummod:gov	_
+13	osob	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	obj	9:obj	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01044009
+# text = Doprowadziło to do ujawnienia w przeciągu ostatnich dwóch dni, że co najmniej sześciu dziennikarzy z Quebecu było celem nadzoru policji prowincjonalnej.
+# text_en = That led to revelations over the last two days that at least six other Quebec journalists were targeted by provincial police surveillance operations.
+1	navedlo	navesti	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	1:nsubj	_
+3	do	do	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen
+4	ujawnienia	råzkryti	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obl	1:obl	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Loc
+6	protęgě	protęga	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	fixed	5:fixed	_
+7	ostatnich	ostatni	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	9:amod	_
+8	dvoh	dva	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumForm=Word	9	nummod	9:nummod	_
+9	dnev	denj	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	_
+11	že	že	SCONJ	comp	_	19	mark	19:mark	_
+12	čto	čto	PART	part	_	14	advmod:emph	14:advmod:emph	_
+13	malo	malo	ADV	adv:sup	Degree=Sup	12	fixed	12:fixed	_
+14	šesť	šesť	NUM	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	15	nummod:gov	15:nummod:gov	_
+15	žurnalistov	žurnalist	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	19	nsubj	19:nsubj	_
+16	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	17	case	17:case	Case=Gen
+17	Quebecu	Quebec	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	15:nmod	_
+18	bylo	byti	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	19:cop	_
+19	metojų	meta	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	ccomp:obj	4:ccomp:obj	_
+20	nadzora	nadzor	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod:arg	19:nmod:arg	_
+21	policije	policija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	20	nmod:arg	20:nmod:arg	_
+22	provinciaľnoj	provinciaľny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	21:amod	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01049022
+# text = — Ta odmiana łagodzi bóle pleców, pomaga na mdłości, ten produkt pozwala spać w nocy — mówi Dietrich z siedziby spółki w Denver w stanie Colorado, gdzie handel marihuaną jest legalny.
+# text_en = "This strain helps with back pain, this strain helps with nausea, this product makes you sleep at night," says Dietrich from the company's headquarters in Denver, Colorado, where pot is sold legally.
+1	—	—	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
+2	tuta	tutoj	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
+3	odmiana	odmiana	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj|8:nsubj	_
+4	uměrjaje	uměrjati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	parataxis:obj	19:parataxis:obj	_
+5	bolje	bolj	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	_
+6	hrebetov	hrebet	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	5	nmod:arg	5:nmod:arg	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+8	pomagaje	pomagati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	_
+9	na	na	ADP	prep:acc	AdpType=Prep	10	case	10:case	Case=Acc
+10	mlosti	mlosť	NOUN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	8	obl:arg	8:obl:arg	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+12	tutoj	tutoj	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	13:det	_
+13	produkt	produkt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	14:nsubj	_
+14	pozvaljaje	pozvaljati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj|19:parataxis:obj	_
+15	spati	spati	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	14:xcomp	_
+16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	17:case	Case=Loc
+17	noći	noć	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	15	obl	15:obl	_
+18	—	—	PUNCT	interp	PunctType=Dash	19	punct	19:punct	_
+19	mȯlvi	mȯlviti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+20	Dietrich	Dietrich	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	19:nsubj	_
+21	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	22	case	22:case	Case=Gen
+22	centraly	centrala	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	20	nmod	20:nmod	_
+23	korporacije	korporacija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	22	nmod	22:nmod	_
+24	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	25	case	25:case	Case=Loc
+25	Denver	Denver	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	22:nmod	_
+26	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	27	case	27:case	Case=Loc
+27	stańju	stańje	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	25:nmod	_
+28	Colorado	Colorado	PROPN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	27	nmod	27:nmod	SpaceAfter=No
+29	,	,	PUNCT	interp	PunctType=Comm	34	punct	34:punct	_
+30	kde	kde	ADV	adv	PronType=Rel	34	advmod	34:advmod	_
+31	trgovja	trgovja	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	34:nsubj	_
+32	marihuanojų	marihuana	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	31	nmod:arg	31:nmod:arg	_
+33	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	34:cop	_
+34	zakonny	zakonny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	acl:relcl	27:acl:relcl	SpaceAfter=No
+35	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	_
+
+# sent_id = n01049033
+# text = Ale bez wsparcia prawnego, biorąc pod uwagę utrwaloną reputację konopi jako popularnej substancji psychotropowej, firmy nie wiedzą, co robić.
+# text_en = But without a legislative framework, and with the grassroots origins of pot as a mood-altering folk remedy, companies are left guessing.
+1	no	no	CCONJ	conj	_	19	cc	19:cc	_
+2	bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Gen
+3	podpora	podpor	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	19	obl	19:obl	_
+4	pravnogo	pravny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+6	jmųći	jęti	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	advcl	19:advcl	_
+7	pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Acc
+8	vnimańje	vnimańje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	6:obl:arg	_
+9	utrwaloną	utrwalić	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	10:acl	_
+10	slavų	slava	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj	_
+11	konopi	konopie	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	10	nmod	10:nmod	_
+12	ako	ako	SCONJ	comp	ConjType=Pred	14	mark	14:mark	_
+13	popularnoj	popularny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	14:amod	_
+14	tvoriva	tvorivo	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod	11:nmod	_
+15	psychotropowej	psychotropowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	14:amod	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+17	firmy	firma	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	19:nsubj	_
+18	ne	ne	PART	part	Polarity=Neg	19	advmod:neg	19:advmod:neg	_
+19	znajųt	znati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	22	punct	22:punct	_
+21	čego	čto	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	22	obj	22:obj	_
+22	råbiti	råbiti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	19:xcomp	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	_
+
+# sent_id = n01050006
+# text = Żelazo jest niezbędnym pierwiastkiem, potrzebnym organizmowi do wytwarzania hemoglobiny, białka obecnego w krwinkach i odpowiedzialnego za transport tlenu do tkanek ciała.
+# text_en = Iron is an essential element the body requires to produce hemoglobin, the protein found in red blood cells that's responsible for transporting oxygen to tissues in the body.
+1	želězo	želězo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	4:nsubj	_
+2	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+3	neobhodimy	neobhodimy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	_
+4	pŕvěstkom	pŕvěstȯk	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+6	potrěbny	potrěbny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	_
+7	organizmu	organizm	NOUN	subst:sg:dat:m3	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	iobj	6:iobj	_
+8	do	do	ADP	prep:gen	AdpType=Prep	9	case	9:case	Case=Gen
+9	wytwarzania	proizvoditi	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obl:arg	6:obl:arg	_
+10	hemoglobiny	hemoglobina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	obj	9:obj	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+12	proteina	protein	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	appos	10:appos	_
+13	tutčasnogo	tutčasny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Loc
+15	krvinkah	krvinȯk	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	13	obl	13:obl	_
+16	pa	pa	CCONJ	conj	_	17	cc	17:cc	_
+17	odpovědaľnogo	odpovědaľny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	conj	12:amod|13:conj	_
+18	za	za	ADP	prep:acc	AdpType=Prep	19	case	19:case	Case=Acc
+19	transport	transport	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl:arg	17:obl:arg	_
+20	kysloroda	kyslorod	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod:arg	19:nmod:arg	_
+21	do	do	ADP	prep:gen	AdpType=Prep	22	case	22:case	Case=Gen
+22	tkanek	tkanka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	19	nmod:arg	19:nmod:arg	_
+23	těla	tělo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	22	nmod	22:nmod	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01050019
+# text = Nowe normy poziomu żelaza oznaczają, że potrzeba więcej dawców.
+# text_en = The new iron guidelines mean more donors are needed.
+1	nove	novy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	2:amod	_
+2	normy	norma	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	5:nsubj	_
+3	uråvnja	uråvenj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	2:nmod	_
+4	želěza	želězo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod:arg	3:nmod:arg	_
+5	znamenujųt	znamenovati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+7	že	že	SCONJ	comp	_	8	mark	8:mark	_
+8	trěba	trěba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	ccomp	5:ccomp	_
+9	vęće	vęće	PART	num:pl:acc:m1:rec	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	10	det:numgov	10:det:numgov	_
+10	podavateljev	podavatelj	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	8	iobj	8:iobj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = n01052006
+# text = Opisał ją jako kobietę „nadzwyczajną”, „kochającą i wspaniałą”, która pozostawiła swoimi opowieściami trwały ślad w świecie literatury.
+# text_en = He described her as a "remarkable" and "loving and wonderful" woman who left her mark in the literary world with her stories.
+1	opisal	opisati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	jų	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	1:obj	_
+3	ako	ako	SCONJ	comp	ConjType=Pred	4	mark	4:mark	_
+4	ženų	žena	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl	1:obl	_
+5	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	6	punct	6:punct	SpaceAfter=No
+6	nadobyčajnų	nadobyčajny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	SpaceAfter=No
+7	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	6	punct	6:punct	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+9	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	10	punct	10:punct	SpaceAfter=No
+10	ljubȯvnų	ljubȯvny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	conj	4:amod|6:conj	_
+11	pa	pa	CCONJ	conj	_	12	cc	12:cc	_
+12	velikolěpnų	velikolěpny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	conj	4:amod|6:conj	SpaceAfter=No
+13	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	6	punct	6:punct	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	_
+15	ktora	ktory	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	16:nsubj	_
+16	ostavila	ostaviti	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
+17	svojimi	svoj	DET	adj:pl:inst:f:pos	Case=Ins|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	18	det:poss	18:det:poss	_
+18	råzkazami	råzkaz	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	16	iobj	16:iobj	_
+19	trvaly	trvaly	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	20:amod	_
+20	slěd	slěd	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	16:obj	_
+21	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	22	case	22:case	Case=Loc
+22	světu	svět	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	16:obl	_
+23	literatury	literatura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	22	nmod:arg	22:nmod:arg	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01053036
+# text = W wieku zaledwie 20 lat głośno sprzeciwia się nękaniu i pomaga dziewczętom zaakceptować swój własny ideał urody.
+# text_en = At just 20, she is a strong voice against bullying and a positive one in helping girls embrace their own standards of beauty.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Loc
+2	věku	věk	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl|11:obl	_
+3	ledva	ledva	PART	part	_	4	advmod:emph	4:advmod:emph	_
+4	20	20	NUM	num:pl:gen:m3:rec	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	5	nummod:gov	5:nummod:gov	_
+5	rokov	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	2:nmod	_
+6	glåsno	glåsno	ADV	adv:pos	Degree=Pos	7	advmod	7:advmod	_
+7	sprzeciwia	sprzeciwiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
+9	nękaniu	nękanie	NOUN	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing	7	iobj	7:iobj	_
+10	pa	pa	CCONJ	conj	_	11	cc	11:cc	_
+11	pomagaje	pomagati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	0:root|7:conj	_
+12	děvkam	děvka	NOUN	subst:pl:dat:n:col	Case=Dat|Gender=Neut|Number=Plur|NumType=Sets	11	iobj	11:iobj	_
+13	prijęti	prijęti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	11:xcomp	_
+14	svoj	svoj	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det:poss	16:det:poss	_
+15	vlastny	vlastny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	16:amod	_
+16	ideal	ideal	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	13:obj	_
+17	urody	uroda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod:arg	16:nmod:arg	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01053041
+# text = – Jej głos dosłownie okrążył świat – powiedziała Leive.
+# text_en = "Her voice literally went around the world," Leive said.
+1	–	–	PUNCT	interp	PunctType=Dash	8	punct	8:punct	_
+2	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	nmod	3:nmod	_
+3	glås	glås	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	_
+4	doslovno	doslovno	ADV	adv:pos	Degree=Pos	5	parataxis:insert	5:parataxis:insert	_
+5	okrųžil	okrųžiti	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis:obj	8:parataxis:obj	_
+6	svět	svět	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	_
+7	–	–	PUNCT	interp	PunctType=Dash	8	punct	8:punct	_
+8	skazala	skazati	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	Leive	Leive	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	8:nsubj	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	_
+
+# sent_id = n01054011
+# text = Natychmiast po opublikowaniu oficjalnych zdjęć z imprezy, media społecznościowe zagotowały się od niepochlebnych komentarzy.
+# text_en = As soon as the official party photos were released, social media lit up with comments — and they were less than favourable.
+1	tutčasno	tutčasno	ADV	adv	_	3	advmod	3:advmod	_
+2	poslě	poslě	ADP	prep:loc	AdpType=Prep	3	case	3:case	Case=Loc
+3	opublikowaniu	opublikovati	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	11	obl	11:obl	_
+4	služebnyh	služebny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	5	amod	5:amod	_
+5	snimkov	snimȯk	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	3	obj	3:obj	_
+6	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	7	case	7:case	Case=Gen
+7	zabavy	zabava	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	3	punct	3:punct	_
+9	medija	medija	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	11	nsubj	11:nsubj	_
+10	społecznościowe	społecznościowy	ADJ	adj:pl:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	9	amod	9:amod	_
+11	zagotowały	zagotować	VERB	praet:pl:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+12	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	11	expl:pv	11:expl:pv	_
+13	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Gen
+14	niepochlebnych	niepochlebny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	15:amod	_
+15	komentaŕev	komentaŕ	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl:arg	11:obl:arg	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	11	punct	11:punct	_
+
+# sent_id = n01055008
+# text = Celem tych konsultacji CRTC jest zebranie reakcji środowisk przemysłowych i społeczeństwa.
+# text_en = The purpose of these CRTC hearings is to field responses from industry stakeholders and the public.
+1	metojų	meta	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	_
+2	tutyh	tutoj	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	3	det	3:det	_
+3	konsultacij	konsultacija	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	nmod:arg	1:nmod:arg	_
+4	CRTC	CRTC	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod	_
+5	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	1:cop	_
+6	zebranie	sȯbrati	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	nsubj	1:nsubj	_
+7	reakcij	reakcija	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	obj	6:obj	_
+8	obsrědin	obsrědina	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	7	nmod	7:nmod	_
+9	promysľnyh	promysľny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	8	amod	8:amod	_
+10	pa	pa	CCONJ	conj	_	11	cc	11:cc	_
+11	spolȯčenstva	spolȯčenstvo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	8	conj	7:nmod|8:conj	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01055038
+# text = Dotyczyłoby to nie tylko treści rozrywkowych, ale również edukacji, badań naukowych i, co być może najważniejsze, debaty politycznej.
+# text_en = This would not only apply to entertainment content, but equally to education, to scientific research and, perhaps most importantly, to political discourse.
+1-2	Dotyczyłoby	_	_	_	_	_	_	_	_
+1	Dotyczyło	dotyczyć	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	by	by	AUX	part	_	1	aux:cnd	1:aux:cnd	_
+3	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	1:nsubj	_
+4	ne	ne	CCONJ	conj	_	6	cc:preconj	6:cc:preconj	_
+5	toliko	toliko	CCONJ	conj	_	4	fixed	4:fixed	_
+6	sȯdŕžala	sȯdŕžańje	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	obj	1:obj	_
+7	rozrywkowych	rozrywkowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	6:amod	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
+9	no	no	CCONJ	conj	_	11	cc	11:cc	_
+10	również	również	PART	part	_	11	advmod:emph	11:advmod:emph	_
+11	prosvěty	prosvěta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	conj	1:obj|6:conj	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+13	råziskyvalo	råziskyvańje	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	11	conj	6:conj|11:conj	_
+14	naučnyh	naučny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	13	amod	13:amod	_
+15	pa	pa	CCONJ	conj	_	22	cc	22:cc	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	20	punct	20:punct	_
+17	čto	čto	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	20	nsubj	20:nsubj	_
+18	byti	byti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	20	parataxis:insert	20:parataxis:insert	_
+19	može	može	PART	part	PartType=Mod	18	fixed	18:fixed	_
+20	značimo	značimy	ADJ	adj:sg:nom:n:sup	Case=Nom|Degree=Sup|Gender=Neut|Number=Sing	22	acl:relcl	22:acl:relcl	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	20	punct	20:punct	_
+22	råzpravy	råzprava	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	conj	6:conj|11:conj	_
+23	političnoj	političny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	22:amod	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01055047
+# text = Internet nie jest w końcu luksusem, tylko niezbędnym narzędziem.
+# text_en = After all, the internet is not a luxury; it is an essential tool.
+1	Internet	Internet	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj|10:nsubj	_
+2	ne	ne	CCONJ	conj	_	6	cc:preconj	6:cc:preconj	_
+3	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop|10:cop	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	parataxis:insert	6:parataxis:insert|10:parataxis:insert	Case=Loc
+5	koncu	konec	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	fixed	4:fixed	_
+6	råzkošjų	råzkoš	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+8	toliko	toliko	CCONJ	conj	_	10	cc	10:cc	_
+9	neobhodimym	neobhodimy	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	10:amod	_
+10	orųďjem	orųďje	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	6	conj	0:root|6:conj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
+
+# sent_id = n01057014
+# text = Pozostałości utworzyły pierścień wokół równika Ziemi i zostały w końcu ściągnięte razem przez grawitację, tworząc księżyc.
+# text_en = The debris formed a ring around the Earth's equator and was eventually drawn together by gravity to form the moon.
+1	rešty	rešta	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	2:nsubj|11:nsubj	_
+2	utworzyły	utworzyć	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	pŕsten	pŕstenj	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	2:obj	_
+4	wokół	wokół	ADP	prep:gen	AdpType=Prep	5	case	5:case	Case=Gen
+5	ekvatora	ekvator	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	2:obl	_
+6	Ziemi	Zemja	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod:arg	5:nmod:arg	_
+7	pa	pa	CCONJ	conj	_	11	cc	11:cc	_
+8	stavša	stati	AUX	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	11:aux:pass	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	11	advmod	11:advmod	Case=Loc
+10	koncu	konec	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	fixed	9:fixed	_
+11	ściągnięte	ściągnąć	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	0:root|2:conj	_
+12	zajedno	zajedno	ADV	adv	_	11	advmod	11:advmod	_
+13	prěz	prěz	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	14	case	14:case	Case=Acc
+14	gravitacijų	gravitacija	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	obl:agent	11:obl:agent	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	_
+16	tvoręći	tvoriti	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	11:advcl	_
+17	měsęc	měsęc	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	16:obj	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01057036
+# text = Wciąż pozostają pytania bez odpowiedzi.
+# text_en = Still, there are questions left unanswered.
+1	neprěstanno	neprěstanno	ADV	adv	_	2	advmod	2:advmod	_
+2	pozostają	pozostawać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	zapytalo	zapytańje	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	2:nsubj	_
+4	bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Gen
+5	odzyva	odzyv	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01058064
+# text = Wyczuwał wokół siebie skutki wyborów w postaci wybuchających konfliktów i przedziwnego ścierania się nowych i starych idei.
+# text_en = He could detect the effects of the election around him, in the bursts of conflict and the curious intersection of new ideas with old ones.
+1	čul	čuti	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	wokół	wokół	ADP	prep:gen	AdpType=Prep	3	case	3:case	Case=Gen
+3	sebe	sebe	PRON	siebie:gen	Case=Gen|PronType=Prs|Reflex=Yes	1	obl	1:obl	_
+4	poslědstva	poslědstvo	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	1:obj	_
+5	izborov	izbory	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	4	nmod:arg	4:nmod:arg	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	9:case|12:case	Case=Loc
+7	personažu	personaž	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	fixed	6:fixed	_
+8	wybuchających	izbuhati	ADJ	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	9	acl	9:acl	_
+9	sporov	spor	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	1:obl	_
+10	pa	pa	CCONJ	conj	_	12	cc	12:cc	_
+11	przedziwnego	przedziwny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	12:amod	_
+12	ścierania	råztirati	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	9	conj	1:obl|9:conj	_
+13	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	12:expl:pv	_
+14	novyh	novy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	17	amod	17:amod	_
+15	pa	pa	CCONJ	conj	_	16	cc	16:cc	_
+16	staryh	stary	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	conj	14:conj|17:amod	_
+17	pojętij	pojęťje	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	12	nsubj	12:nsubj	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01059008
+# text = Ten rozdźwięk pomiędzy danymi gospodarczymi a dyskursem politycznym jest, a przynajmniej powinien być znajomy.
+# text_en = This discordance between economic data and political rhetoric is familiar, or should be.
+1	tutoj	tutoj	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	_
+2	råzpor	råzpor	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	15:nsubj	_
+3	vsrěd	vsrěd	ADP	prep:inst	AdpType=Prep	4	case	4:case|7:case	Case=Ins
+4	danymi	dane	NOUN	subst:pl:inst:n:pt	Case=Ins|Gender=Neut|Number=Ptan	2	nmod	2:nmod	_
+5	ekonomičnymi	ekonomičny	ADJ	adj:pl:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	4	amod	4:amod	_
+6	pa	pa	CCONJ	conj	_	7	cc	7:cc	_
+7	råzpravojų	råzprava	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	2:nmod|4:conj	_
+8	političny	političny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	7:amod	_
+9	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+11	pa	pa	CCONJ	conj	_	13	cc	13:cc	_
+12	prinajmenje	prinajmenje	PART	part	_	13	advmod:emph	13:advmod:emph	_
+13	powinien	povinny	VERB	winien:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	9	conj	9:conj|15:cop	_
+14	byti	byti	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	13:xcomp	_
+15	znajemy	znanec	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	15	punct	15:punct	_
+
+# sent_id = n01059019
+# text = Republikańscy ekonomiści przestrzegają przed traktowaniem tych danych jako dowodu gospodarczej nieudolności swojej partii.
+# text_en = Republican economists caution against taking this data as proof that their party is lousy at economic policy.
+1	republikanski	republikansky	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	2:amod	_
+2	ekonomi	ekonom	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	3:nsubj	_
+3	prěduprěđajųt	prěduprěđati	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	prěd	prěd	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Ins
+5	traktowaniem	traktować	NOUN	ger:sg:inst:n:imperf:aff	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obl:arg	3:obl:arg	_
+6	tutyh	tutoj	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	7	det	7:det	_
+7	danyh	dane	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	5	obj	5:obj	_
+8	ako	ako	SCONJ	comp	ConjType=Pred	9	mark	9:mark	_
+9	dovoda	dovod	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod	_
+10	ekonomičnoj	ekonomičny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	11:amod	_
+11	nieudolności	nieudolność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod:arg	9:nmod:arg	_
+12	svojej	svoj	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det:poss	13:det:poss	_
+13	partije	partija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod	11:nmod	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01059025
+# text = Nie wiem, jaki był wzrost PKB za prezydentury Waszyngtona i Lincolna, ale rozwój instytucji w tamtym okresie miał ważne i trwałe efekty.
+# text_en = “I don’t know what G.D.P. growth was during the Washington and Lincoln Administrations, but the institutional developments in those terms had large and long-lasting effects.”
+1	ne	ne	PART	part	Polarity=Neg	2	advmod:neg	2:advmod:neg	_
+2	znajų	znati	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	_
+4	kaky	kaky	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	ccomp	2:ccomp	_
+5	byl	byti	AUX	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+6	vȯzråst	vȯzråst	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
+7	PKB	PKB	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod:arg	6:nmod:arg	_
+8	za	za	ADP	prep:gen	AdpType=Prep	9	case	9:case	Case=Gen
+9	prědsědateljstva	prědsědateljstvo	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod	_
+10	Waszyngtona	Waszyngton	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod	_
+11	pa	pa	CCONJ	conj	_	12	cc	12:cc	_
+12	Lincolna	Lincoln	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	10	conj	9:nmod|10:conj	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	20	punct	20:punct	_
+14	no	no	CCONJ	conj	_	20	cc	20:cc	_
+15	råzvoj	råzvoj	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	20:nsubj	_
+16	institucije	institucija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod:arg	15:nmod:arg	_
+17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	19:case	Case=Loc
+18	tamtoj	tamtoj	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	19	det	19:det	_
+19	obdobju	obdobje	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	15:nmod	_
+20	miał	mieć	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+21	značime	značimy	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	24	amod	24:amod	_
+22	pa	pa	CCONJ	conj	_	23	cc	23:cc	_
+23	trvale	trvaly	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	21	conj	21:conj|24:amod	_
+24	učinky	učinȯk	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	iobj	20:iobj	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01059054
+# text = Między Sullą a Trumpem, Rzymem a Stanami, jest więcej różnic, niż podobieństw, ale to nie pomniejsza cech wspólnych.
+# text_en = There are more differences between Sulla and Trump, Rome and the U.S., than there are similarities, but that doesn’t discredit the resemblances.
+1	među	među	ADP	prep:inst	AdpType=Prep	2	case	2:case|6:case	Case=Ins
+2	Sullą	Sulla	PROPN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	10	obl:arg	10:obl:arg	_
+3	pa	pa	CCONJ	conj	_	4	cc	4:cc	_
+4	Trumpem	Trump	PROPN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	2	conj	2:conj	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+6	Rzymem	Rim	PROPN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	conj	2:conj|10:obl:arg	_
+7	pa	pa	CCONJ	conj	_	8	cc	8:cc	_
+8	Stanami	Stany	PROPN	subst:pl:inst:n:pt	Case=Ins|Gender=Neut|Number=Ptan	6	conj	2:conj|6:conj	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	2	punct	2:punct	_
+10	by	byti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	vęće	vęće	PART	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	12	det:numgov	12:det:numgov	_
+12	råznic	råznica	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	nsubj	10:nsubj	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
+14	neželi	neželi	SCONJ	comp	ConjType=Comp	15	mark	15:mark	_
+15	srodstv	srodstvo	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	11	obl:cmpr	11:obl:cmpr	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
+17	no	no	CCONJ	conj	_	20	cc	20:cc	_
+18	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	20:nsubj	_
+19	ne	ne	PART	part	Polarity=Neg	20	advmod:neg	20:advmod:neg	_
+20	umenšaje	umenšati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	0:root|10:conj	_
+21	svojstv	svojstvo	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	20	obj	20:obj	_
+22	spolȯčnyh	spolȯčny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	21	amod	21:amod	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	_
+
+# sent_id = n01060069
+# text = I, jak przyznała, „trzeba zwrócić uwagę na to, że uznała, że musimy zrobić więcej – możemy działać lepiej – i że wyraziła żal”.
+# text_en = And, she granted, “you have to look at where she has acknowledged that we need to do something different—we can do better—and where she has expressed regret.”
+1	pa	pa	CCONJ	conj	_	7	cc	7:cc	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	_
+3	jak	jak	SCONJ	comp	_	4	mark	4:mark	_
+4	pripustila	pripustiti	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis:insert	7:parataxis:insert	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	_
+6	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	7	punct	7:punct	SpaceAfter=No
+7	trěba	trěba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
+8	vŕnųti	vŕnųti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	_
+9	vnimańje	vnimańje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	obj	8:obj	_
+10	na	na	ADP	prep:acc	AdpType=Prep	11	case	11:case	Case=Acc
+11	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obl:arg	8:obl:arg	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	_
+13	že	že	SCONJ	comp	_	14	mark	14:mark	_
+14	uznala	uznati	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp:cleft	11:ccomp:cleft	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	17	punct	17:punct	_
+16	že	že	SCONJ	comp	_	17	mark	17:mark|21:mark	_
+17	trěbujemȯ	trěbovati	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp:obj	14:ccomp:obj	_
+18	sdělati	sdělati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	17:xcomp	_
+19	vęće	vęće	PART	num:sg:acc:n:rec	Case=Acc|Gender=Neut|Number=Sing|NumType=Card|PronType=Ind	18	obj	18:obj	_
+20	–	–	PUNCT	interp	PunctType=Dash	21	punct	21:punct	_
+21	možemȯ	mogti	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	14:ccomp:obj|17:conj	_
+22	dělati	dělati	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	21:xcomp	_
+23	dobro	dobro	ADV	adv:com	Degree=Cmp	22	advmod	22:advmod	_
+24	–	–	PUNCT	interp	PunctType=Dash	21	punct	21:punct	_
+25	pa	pa	CCONJ	conj	_	27	cc	27:cc	_
+26	že	že	SCONJ	comp	_	27	mark	27:mark	_
+27	izrazila	izraziti	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	11:ccomp:cleft|14:conj	_
+28	žalj	žalj	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	27:obj	SpaceAfter=No
+29	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	7	punct	7:punct	SpaceAfter=No
+30	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01062035
+# text = Zwykle są to artyści, którzy chcą zrobić parę rzeczy.
+# text_en = They’re usually artists who want to do a bunch of stuff.
+1	obyčno	obyčno	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+2	by	byti	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	4:cop	_
+4	umětniki	umětnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
+6	ktori	ktory	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	7:nsubj	_
+7	hćųt	htěti	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
+8	sdělati	sdělati	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	_
+9	několiko	několiko	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	10	det:numgov	10:det:numgov	_
+10	věćij	věć	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	obj	8:obj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01062049
+# text = A wtedy reklama się kończy.
+# text_en = Then the commercial ends.
+1	pa	pa	CCONJ	conj	_	5	cc	5:cc	_
+2	wtedy	wtedy	ADV	adv	PronType=Dem	5	advmod	5:advmod	_
+3	reklama	reklama	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	_
+4	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
+5	zavŕšaje	zavŕšati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = n01063011
+# text = Producenci Miami Bass byli ekspertami w dziedzinie kręcenia tyłkami, które stanowiło ich główne zainteresowanie.
+# text_en = Miami Bass producers were clinical in the art of moving butts—their main concern.
+1	proizvoditelji	proizvoditelj	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	4:nsubj	_
+2	Miami	Miami	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	nmod:arg	1:nmod:arg	_
+3	Bass	Bass	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	flat	2:flat	_
+4	byvši	byti	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	znalcami	znalec	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	4	xcomp:pred	4:xcomp:pred	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Loc
+7	oblasti	oblasť	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	fixed	6:fixed	_
+8	kręcenia	kręcić	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	obl:arg	4:obl:arg	_
+9	zadnicami	zadnica	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	iobj	8:iobj	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+11	ktoro	ktory	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	12:nsubj	_
+12	prědstavjalo	prědstavjati	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
+13	oni	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	15	nmod	15:nmod	_
+14	glåvno	glåvny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	15:amod	_
+15	interes	interes	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	12	xcomp:pred	12:xcomp:pred	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01063051
+# text = Ich przywołanie podkreśla wartość solidnego wyzwania, artystyczną i nie tylko: dyskomfort, wzrost i znaczące powiązanie.
+# text_en = Their revivals underscore the appeal of a good challenge, artistic or otherwise: discomfort, growth, and a meaningful connection.
+1	one	on	PRON	ppron3:pl:gen:m3:ter:akc:npraep	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	obj	2:obj	_
+2	przywołanie	przywołać	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nsubj	3:nsubj	_
+3	podčrkaje	podčrkati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	godnosť	godnosť	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	_
+5	solidnogo	solidny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	6:amod	_
+6	izzva	izzȯv	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	nmod:arg	4:nmod:arg	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+8	umětničskų	umětničsky	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	4:amod	_
+9	pa	pa	CCONJ	conj	_	11	cc	11:cc	_
+10	ne	ne	PART	part	Polarity=Neg	11	advmod:neg	11:advmod:neg	_
+11	toliko	toliko	PART	part	_	8	conj	4:amod|8:conj	SpaceAfter=No
+12	:	:	PUNCT	interp	PunctType=Colo	11	punct	11:punct	_
+13	dyskomfort	dyskomfort	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	parataxis:insert	11:parataxis:insert	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
+15	vȯzråst	vȯzråst	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	11:parataxis:insert|13:conj	_
+16	pa	pa	CCONJ	conj	_	18	cc	18:cc	_
+17	značimo	značimy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	18:amod	_
+18	svęź	svęź	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	13	conj	11:parataxis:insert|13:conj	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01064096
+# text = Jak wiele znanych mi osób, przez ostatnie miesiące siedziałem do późna, z przerażeniem śledząc sondaże.
+# text_en = Like many people I know, I’ve spent recent months staying up late, reading polls in terror.
+1	jak	jak	SCONJ	comp	ConjType=Comp	5	mark	5:mark	_
+2	velje	velje	DET	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	5	det:numgov	5:det:numgov	_
+3	znanyh	znany	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	5:amod	_
+4	mně	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	iobj	3:iobj	_
+5	osob	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	obl:cmpr	10:obl:cmpr	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+7	prěz	prěz	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Acc
+8	ostatnie	ostatni	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	9	amod	9:amod	_
+9	měsęce	měsęc	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	10:obl	_
+10-11	siedziałem	_	_	_	_	_	_	_	_
+10	sěděl	sěděti	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	byh	byti	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	10	aux:clitic	10:aux:clitic	_
+12	do	do	ADP	prep:gen	AdpType=Prep	13	case	13:case	Case=Gen
+13	pozdny	pozdny	ADJ	adjp:gen	PrepCase=Pre	10	obl	10:obl	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	17	punct	17:punct	_
+15	iz	iz	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	16	case	16:case	Case=Ins
+16	przerażeniem	przerażenie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	17	obl	17:obl	_
+17	slědujųći	slědovati	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	10:advcl	_
+18	ankety	anketa	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	17:obj	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	_
+
+# sent_id = n01064113
+# text = Caplan odrzuca głosowanie retrospektywne, cytując naukowców, którzy określili je jako „nie bardziej racjonalne, niż zabijanie faraona, gdy Nil nie wylał”.
+# text_en = Caplan dismisses retrospective voting, quoting a pair of scholars who call it “no more rational than killing the pharaoh when the Nile does not flood.”
+1	Caplan	Caplan	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	odvŕgaje	odvŕgati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	glåsovalo	glåsovańje	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	2	obj	2:obj	_
+4	retrospektywne	retrospektywny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	3:amod	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	_
+6	navodęći	navoditi	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	2:advcl	_
+7	učenyh	učeny	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	6	obj	6:obj	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+9	ktori	ktory	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	10:nsubj	_
+10	oprědělivši	oprěděliti	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
+11	je	on	PRON	ppron3:pl:acc:n:ter:akc:npraep	Case=Acc|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	10	obj	10:obj	_
+12	ako	ako	SCONJ	comp	ConjType=Pred	16	mark	16:mark	_
+13	„	„	PUNCT	interp	PunctSide=Ini|PunctType=Quot	16	punct	16:punct	SpaceAfter=No
+14	ne	ne	PART	part	Polarity=Neg	15	advmod:neg	15:advmod:neg	_
+15	veľmi	veľmi	ADV	adv:com	Degree=Cmp	16	advmod	16:advmod	_
+16	racionaľno	racionaľny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	obl	10:obl	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	_
+18	neželi	neželi	SCONJ	comp	ConjType=Comp	19	mark	19:mark	_
+19	zabijanie	umŕtvjati	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	15	obl:cmpr	15:obl:cmpr	_
+20	faraona	faraon	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	19	obj	19:obj	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	25	punct	25:punct	_
+22	gdy	gdy	ADV	adv	_	25	advmod	25:advmod	_
+23	Nil	Nil	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	25:nsubj	_
+24	ne	ne	PART	part	Polarity=Neg	25	advmod:neg	25:advmod:neg	_
+25	izlil	izliti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	19:acl:relcl	SpaceAfter=No
+26	”	”	PUNCT	interp	PunctSide=Fin|PunctType=Quot	16	punct	16:punct	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01066093
+# text = — Całkowicie zaniedbał swoje zdrowie — donosiła jego żona Alice.
+# text_en = “Complete neglect of his own health,” his wife, Alice, reported.
+1	—	—	PUNCT	interp	PunctType=Dash	7	punct	7:punct	_
+2	kompletno	kompletno	ADV	adv:pos	Degree=Pos	3	advmod	3:advmod	_
+3	zapustil	zapustiti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis:obj	7:parataxis:obj	_
+4	svoje	svoj	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det:poss	5:det:poss	_
+5	zdråvje	zdråvje	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	3	obj	3:obj	_
+6	—	—	PUNCT	interp	PunctType=Dash	7	punct	7:punct	_
+7	donosila	donositi	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	on	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	9	nmod	9:nmod	_
+9	žena	žena	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	_
+10	Alice	Alice	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	appos	9:appos	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	_
+
+# sent_id = n01067014
+# text = Każda mapa z wystawy opowiada swoją historię, nie zawsze opartą na faktach.
+# text_en = Each map in the exhibition tells its own story, not all factual.
+1	vsekto	vsekto	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	2:det	_
+2	mapa	mapa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	_
+3	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Gen
+4	izstavy	izstava	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	2:nmod	_
+5	råzkazyvaje	råzkazyvati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+6	svojų	svoj	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det:poss	7:det:poss	_
+7	historijų	historija	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	_
+9	ne	ne	PART	part	Polarity=Neg	10	advmod:neg	10:advmod:neg	_
+10	zawsze	zawsze	ADV	adv	PronType=Tot	11	advmod	11:advmod	_
+11	opartą	oprzeć	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl:relcl	7:acl:relcl	_
+12	na	na	ADP	prep:loc	AdpType=Prep	13	case	13:case	Case=Loc
+13	faktah	fakt	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl:arg	11:obl:arg	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	_
+
+# sent_id = n01067023
+# text = Po raz pierwszy wystawiono również mapy brytyjskiego Ministerstwa Obrony z czasów zimnej wojny, przedstawiające hipotetyczne bitwy i używane podczas egzaminów w szkole wojskowej.
+# text_en = Also being exhibited for the first time are British Ministry of Defence maps which imagine cold war battles and which were used in military college exams.
+1	poslě	poslě	ADP	prep:acc	AdpType=Prep	2	case	2:case	Case=Acc
+2	raz	raz	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	4:obl	_
+3	pierwszy	pŕvy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	2:amod	_
+4	izstavivši	izstaviti	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	również	również	PART	part	_	6	advmod:emph	6:advmod:emph	_
+6	mapy	mapa	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	obj	4:obj	_
+7	britanskogo	britansky	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	8:amod	_
+8	ministerstva	ministerstvo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	6	nmod	6:nmod	_
+9	zaščity	zaščita	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:flat	8:nmod:flat	_
+10	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Gen
+11	vrěmen	vrěmę	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod	_
+12	zimnoj	zimny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	_
+13	vojny	vojna	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod:arg	11:nmod:arg	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	_
+15	przedstawiające	prědstavjati	ADJ	pact:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	6	acl	6:acl	_
+16	hipotetične	hipotetičny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	17:amod	_
+17	sěče	sěča	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	15	obj	15:obj	_
+18	pa	pa	CCONJ	conj	_	19	cc	19:cc	_
+19	używane	uživati	ADJ	ppas:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	conj	6:acl|15:conj	_
+20	za	za	ADP	prep:gen	AdpType=Prep	21	case	21:case	Case=Gen
+21	egzaminów	egzamin	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	19:obl	_
+22	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	23	case	23:case	Case=Loc
+23	učilišču	učilišče	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	19	obl	19:obl	_
+24	vojennoj	vojenny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	23:amod	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01068038
+# text = Wszystkim będzie bardzo brakować jego umiejętności uzyskiwania odpowiedzi na pytania podatników.
+# text_en = His skill in getting answers for taxpayers will be sorely missed.
+1	vsi	vsi	PRON	subst:pl:dat:m1:pt	Animacy=Hum|Case=Dat|Gender=Masc|Number=Ptan|PronType=Tot	4	iobj	4:iobj	_
+2	by	byti	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	4:aux	_
+3	veľmi	veľmi	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+4	nedostavati	nedostavati	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	0:root	_
+5	on	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	6	nmod	6:nmod	_
+6	uměńja	uměńje	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
+7	uzyskiwania	iziskyvati	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nmod:arg	6:nmod:arg	_
+8	odzyvov	odzyv	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	7	obj	7:obj	_
+9	na	na	ADP	prep:acc	AdpType=Prep	10	case	10:case	Case=Acc
+10	zapytalo	zapytańje	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	8	nmod:arg	8:nmod:arg	_
+11	podatników	podatnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	10	nmod	10:nmod	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01069023
+# text = Zachował się absolutnie elegancko i zniósł to po męsku, ja nie posiadam się z wściekłości.
+# text_en = He was utterly gracious and took it like a man, I am beyond furious.
+1	zadŕžal	zadŕžati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	popȯlno	popȯlno	ADV	adv:pos	Degree=Pos	4	advmod	4:advmod	_
+4	elegancko	elegancko	ADV	adv:pos	Degree=Pos	1	advmod	1:advmod	_
+5	pa	pa	CCONJ	conj	_	6	cc	6:cc	_
+6	snesl	snesti	VERB	praet:sg:m1:perf:nagl	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
+7	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	6:obj	_
+8	poslě	poslě	ADP	prep:acc	AdpType=Prep	9	case	9:case	Case=Acc
+9	mųžsky	mųžsky	ADJ	adjp	PrepCase=Pre	6	obl	6:obl	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	_
+11	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	13	nsubj	13:nsubj	_
+12	ne	ne	PART	part	Polarity=Neg	13	advmod:neg	13:advmod:neg	_
+13	vlastnjų	vlastniti	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	_
+14	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	13	expl:pv	13:expl:pv	_
+15	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	16	case	16:case	Case=Gen
+16	wściekłości	wściekłość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	obl:arg	13:obl:arg	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01070016
+# text = Na pokładzie statku jest ponad 330 członków załogi.
+# text_en = More than 330 crew are onboard the ship.
+1	na	na	ADP	prep:loc	AdpType=Prep	2	case	2:case	Case=Loc
+2	osadku	osadȯk	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	4:obl	_
+3	lodi	loď	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod:arg	2:nmod:arg	_
+4	by	byti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	ponad	ponad	PART	part	_	6	advmod:emph	6:advmod:emph	_
+6	330	330	NUM	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	7	nummod:gov	7:nummod:gov	_
+7	členov	člen	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	4:nsubj	_
+8	posady	posada	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod:arg	7:nmod:arg	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	_
+
+# sent_id = n01070017
+# text = Vega zasugerował że wielu może być nieświadomych jego historii z powodu wieku.
+# text_en = Vega suggested that, because of their age, many would be unaware of its history.
+1	Vega	Vega	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
+2	prědložil	prědložiti	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	že	že	SCONJ	comp	_	5	mark	5:mark	_
+4	velje	velje	DET	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	5	nsubj	5:nsubj	_
+5	može	mogti	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp:obj	2:ccomp:obj	_
+6	byti	byti	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	cop	7:cop	_
+7	nesvědomi	nesvědomy	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	xcomp	5:xcomp	_
+8	on	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	9	nmod	9:nmod	_
+9	historije	historija	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	_
+10	iz	iz	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	12:case	Case=Gen
+11	råzloga	råzlog	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	fixed	10:fixed	_
+12	věka	věk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	7:obl	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
+
+# sent_id = n01070020
+# text = Zabijano tutaj ludzi.
+# text_en = People got killed there.
+1	umŕtvjavši	umŕtvjati	VERB	imps:imperf	Aspect=Imp|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	tut	tut	ADV	adv	PronType=Dem	1	advmod	1:advmod	_
+3	ljudi	člověk	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	1	obj	1:obj	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01072012
+# text = Pracował dla BBC przez dekadę.
+# text_en = He worked for the BBC for a decade.
+1	trudil	truditi	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	za	za	ADP	prep:gen	AdpType=Prep	3	case	3:case	Case=Gen
+3	BBC	BBC	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	obl	1:obl	_
+4	prěz	prěz	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Acc
+5	desętilěťje	desętilěťje	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl	1:obl	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01073004
+# text = Kto zatrzyma drużynę Australii?
+# text_en = Who can stop this Australia side?
+1	kto	kto	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	2	nsubj	2:nsubj	_
+2	zaustavi	zaustaviti	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	komandų	komanda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	_
+4	Australii	Avstralija	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod	SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	2	punct	2:punct	_
+
+# sent_id = n01073023
+# text = Czyżby ich boskie prawo do tytułu najlepszych na świecie nie było już zapewnione?
+# text_en = Was their divine right to the mantle as the world’s best no longer warranted?
+1	Czyżby	czyżby	PART	part	PartType=Int	13	advmod	13:advmod	_
+2	oni	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	nmod	4:nmod	_
+3	božsko	božsky	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	4:amod	_
+4	zakon	zakon	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	13:nsubj:pass	_
+5	do	do	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen
+6	zvańja	zvańje	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod:arg	4:nmod:arg	_
+7	dobri	dobry	ADJ	adj:pl:gen:m1:sup	Animacy=Hum|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	6	amod	6:amod	_
+8	na	na	ADP	prep:loc	AdpType=Prep	9	case	9:case	Case=Loc
+9	světu	svět	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	7:obl	_
+10	ne	ne	PART	part	Polarity=Neg	11	advmod:neg	11:advmod:neg	_
+11	bylo	byti	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	13:aux:pass	_
+12	już	już	PART	part	_	13	advmod:emph	13:advmod:emph	_
+13	zapewnione	uvěriti	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+14	?	?	PUNCT	interp	PunctType=Qest	13	punct	13:punct	_
+
+# sent_id = n01074020
+# text = Jego styl gry jest zarówno twardy, jak i subtelny.
+# text_en = He has got that hard edge to his game but also the soft hands.
+1	on	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nmod	2:nmod	_
+2	styl	styl	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj|10:nsubj	_
+3	igry	igra	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:arg	2:nmod:arg	_
+4	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop|10:cop	_
+5	zarówno	zarówno	CCONJ	conj	_	6	cc:preconj	6:cc:preconj	_
+6	tvŕdy	tvŕdy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+8	jak	jak	CCONJ	conj	_	10	cc	10:cc	_
+9	pa	pa	CCONJ	conj	_	8	fixed	8:fixed	_
+10	subtiľny	subtiľny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	conj	0:root|6:conj	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	_
+
+# sent_id = n01074026
+# text = Mamy świetną ekipę i to jest szansa, żeby pójść do przodu.
+# text_en = We have a great squad and it is an opportunity for us to take the ship forward.
+1	Mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	świetną	świetny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	3:amod	_
+3	ekipų	ekipa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	1:iobj	_
+4	pa	pa	CCONJ	conj	_	7	cc	7:cc	_
+5	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	7	cop	7:cop	_
+6	by	byti	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+7	šans	šans	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	conj	0:root|1:conj	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+9	aby	aby	SCONJ	comp	_	10	mark	10:mark	_
+10	pojdti	pojdti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	_
+11	do	do	ADP	prep:gen	AdpType=Prep	12	case	12:case	Case=Gen
+12	prěda	prěd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	10:obl	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01074030
+# text = Musisz się temu sprzeciwić, a ja wolę, kiedy ktoś się ze mną konfrontuje, niż kiedy mnie unika.
+# text_en = You have to stand up to that and I would rather someone ran at me rather than round me.
+1	trěbuješ	trěbovati	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
+3	temu	to	PRON	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	iobj	4:iobj	_
+4	sprzeciwić	sprzeciwić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
+6	pa	pa	CCONJ	conj	_	8	cc	8:cc	_
+7	ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
+8	voljų	volěti	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+10	kiedy	kiedy	ADV	adv	PronType=Int	8	advmod:arg	8:advmod:arg	_
+11	někto	někto	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	15:nsubj	_
+12	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	15	expl:pv	15:expl:pv	_
+13	iz	iz	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	14	case	14:case	Case=Ins
+14	mnojų	ja	PRON	ppron12:sg:inst:m1:pri	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing|Person=1|PronType=Prs	15	obl:arg	15:obl:arg	_
+15	konfrontuje	konfrontować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	18:punct	_
+17	neželi	neželi	SCONJ	comp	ConjType=Comp	18	mark	18:mark	_
+18	kiedy	kiedy	ADV	adv	PronType=Int	15	obl:cmpr	15:obl:cmpr	_
+19	mene	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	20	obj	20:obj	_
+20	izběgaje	izběgati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	18:ccomp	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01075028
+# text = Jego ręce przekładały piłkę jak przy grze w trzy kubki.
+# text_en = It was as though he was flicking the ball back and forth underneath three upturned cups.
+1	on	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nmod	2:nmod	_
+2	rųky	rųka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	3:nsubj	_
+3	przekładały	przekładać	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	męč	męč	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	_
+5	jak	jak	SCONJ	comp	ConjType=Comp	7	mark	7:mark	_
+6	vȯdle	vȯdle	ADP	prep:loc	AdpType=Prep	7	case	7:case	Case=Loc
+7	igrě	igra	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	obl:cmpr	3:obl:cmpr	_
+8	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Acc
+9	trěh	tri	NUM	num:pl:acc:m3:congr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	10	nummod	10:nummod	_
+10	čašky	čaška	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	nmod:arg	7:nmod:arg	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_
+
+# sent_id = n01076030
+# text = Opowiedział się za torturami.
+# text_en = He’s spoken in favour of torture.
+1	råzkazal	råzkazati	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	sebę	sę	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	1:expl:pv	_
+3	za	za	ADP	prep:inst	AdpType=Prep	4	case	4:case	Case=Ins
+4	mųkami	mųka	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	1	obl	1:obl	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+
+# sent_id = n01078025
+# text = Rozumiem oczywiście, że należy oddzielić dzisiejsze Niemcy od reżimu nazistowskiego.
+# text_en = Of course, I do understand that modern-day Germany must be separated from the Nazi regime.
+1	råzumějų	råzuměti	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	samoråzumno	samoråzumno	ADV	adv:pos	Degree=Pos	1	parataxis:insert	1:parataxis:insert	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+4	že	že	SCONJ	comp	_	5	mark	5:mark	_
+5	prinaleži	prinaležati	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
+6	odščepiti	odščepiti	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	5:xcomp	_
+7	tutdenne	tutdenny	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	8	amod	8:amod	_
+8	Niemcy	Němcija	PROPN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	6	obj	6:obj	_
+9	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Gen
+10	režima	režim	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl:arg	6:obl:arg	_
+11	nacističny	nacističny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	10:amod	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	_
+

@@ -96,7 +96,7 @@ for tokenlist in conllu.parse_incr(data_file):
             if token_feats["Reflex"]=="Yes": token_reflex="Refl"
 
           if "Polarity" in token_feats:
-            if token_feats["Polarity"]=="Neg": token_reflex="neg"
+            if token_feats["Polarity"]=="Neg": token_polarity="neg"
 
 
           if "PronType" in token_feats:
