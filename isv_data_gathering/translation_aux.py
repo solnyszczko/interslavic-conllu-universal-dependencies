@@ -83,7 +83,7 @@ def UDFeats2OpenCorpora(feats, src_lang):
                 result += ["V-ju"]#helps distinguish participle from normal past tense verbs
             pass  # https://universaldependencies.org/ru/feat/VerbForm.html
         if key == 'Voice':
-            if value.lower() == "act" and feats["VerbForm"] == "Part": 
+            if value.lower() == "act": 
                 if src_lang != "cs":
                     result.append("actv")
             if value.lower() == "pass": 
