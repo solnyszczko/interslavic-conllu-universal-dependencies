@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: isv-priekladatelj
+  version: 0.1
+paths:
+  /{url+}:
+    x-yc-apigateway-any-method:
+      x-yc-apigateway-integration:
+        type: cloud_functions
+        function_id: d4e4agh6pddtl64kq0jg
+        tag: $latest
+      parameters:
+      - explode: false
+        in: path
+        name: url
+        required: false
+        style: simple

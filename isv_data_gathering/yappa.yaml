@@ -1,0 +1,29 @@
+project_name: ISV_Priekladatelj
+project_slug: isv-priekladatelj
+description: null
+requirements_file: requirements.txt
+bucket: null
+application_type: wsgi
+entrypoint: wsgi.app
+django_settings_module: null
+folder_id: b1gronuiaonj02jt6mla
+gw_config: yappa_gw.yaml
+manage_function_name: null
+runtime: python39
+memory_limit: 384MB
+timeout: 1
+service_account_names:
+  creator: yappa-creator-account-default
+  function_actor: null
+excluded_paths:
+- venv
+- .git
+- .idea
+- .DS_Store
+- .yc
+- slovnik.pkl
+environment: {}
+named_service_accounts: {}
+service_account_id: null
+is_public: true
+bucket_name: isv-priekladatelj-861231f6
