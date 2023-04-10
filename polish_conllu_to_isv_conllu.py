@@ -119,7 +119,7 @@ for tokenlist in conllu.parse_incr(data_file):
             if isvdeclined == 1:
                 isvwordcount = isvwordcount+1
 
-    if (isvwordcount/wordcount) > .2:
+    if (isvwordcount/wordcount) > 0:
         with open("isv_polish.conllu", 'a') as g:
             g.write(tokenlist.serialize())
 
