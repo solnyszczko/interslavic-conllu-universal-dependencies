@@ -254,7 +254,8 @@ for tokenlist in conllu.parse_incr(data_file):
                                     failed_inflects_set.add(token_lemma_original)
                                     
             except:
-                   pass
+                try: token["feats"]["Changed_Gender"] = 'True'
+                except:   pass
 
                                     
                                                 
