@@ -75,6 +75,11 @@ for tokenlist in conllu.parse_incr(data_file):
 
                 if 'anim' in processed_token_feats:processed_token_feats.remove('anim')
                 if 'inan' in processed_token_feats:processed_token_feats.remove('inan')
+                if '~actv' in processed_token_feats:processed_token_feats.remove('~actv')
+                if '~pssv' in processed_token_feats:processed_token_feats.remove('~pssv')
+                if '0per' in processed_token_feats:
+                    processed_token_feats.remove('actv')
+                    processed_token_feats.add('neut')
                 token["feats"]["OpenC"] = repr(processed_token_feats)
                 
             if token["upos"] == "PROPN": #nas->naszem issue....
@@ -157,6 +162,13 @@ for tokenlist in conllu.parse_incr(data_file):
                         
                         if test !=[]:
                             token["form"] = test
+                            if isvword["partOfSpeech"].startswit("f."):                                
+                                token["feats"]["Gender"]= "Fem"
+                            if isvword["partOfSpeech"].startswit("m."):                                
+                                token["feats"]["Gender"]= "Masc"
+                            if isvword["partOfSpeech"].startswit("n."):                                
+                                token["feats"]["Gender"]= "Neut"
+                                
                             isvdeclined = 1
                         else: 
 
