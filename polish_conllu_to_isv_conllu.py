@@ -29,8 +29,8 @@ failed_match_set = set()
 
 
 inflects_dict = {'verb': {'good':0,'bad':0},'noun': {'good':0,'bad':0},'pron': {'good':0,'bad':0},'adj': {'good':0,'bad':0},
-                 'part': {'good':0,'bad':0},'total': {'good':0,'bad':0},'total_isv': {'good':0,'bad':0},
-                 "proper_nouns":0}
+                 'part': {'good':0,'bad':0},'total': {'good':0,'bad':0},'total_isv': {'good':1,'bad':1},
+                 "proper_nouns":0,"changed_gender":0,"changed_adj_gender":0}
 
 
 def try_inflect(pos,token,morph,isvword,processed_token_feats,token_upos_fixed):
@@ -54,8 +54,9 @@ def try_inflect(pos,token,morph,isvword,processed_token_feats,token_upos_fixed):
 
 data_file = open("pl_pud-ud-train2.conllu", "r", encoding="utf-8")
 for tokenlist in conllu.parse_incr(data_file):
+    print(tokenlist)
 
-
+#INDIVIDUAL TOKEN PROCESSING
     for token in tokenlist:
         isvsimilarity = 0
         isvdeclined = 0
@@ -82,13 +83,9 @@ for tokenlist in conllu.parse_incr(data_file):
                     processed_token_feats.add('neut')
                 token["feats"]["OpenC"] = repr(processed_token_feats)
                 
-            if token["upos"] == "PROPN": #nas->naszem issue....
-                inflects_dict["proper_nouns"] +=1
-                isvdeclined == 1
 
 
-
-            else: 
+            if True: 
              for isvword in isvwords:
                 isvword["isv"] = isvword["isv"].replace( "#", '')  # FIX ALL ISV CLEAN t' and d'
 
@@ -110,11 +107,17 @@ for tokenlist in conllu.parse_incr(data_file):
                     similarity_check = True
                     
                 else: similarity_check = False
+                
+                if token["upos"] == "PROPN": #nas->naszem issue....
+                    inflects_dict["proper_nouns"] +=1
+                    isvdeclined == 1
 
 
 
 
-                if clean_check and similarity_check:
+
+
+                if (isvdeclined == 0) and clean_check and similarity_check:
                     print(token["lemma"], token["form"], token["upos"],token["xpos"], token["deprel"], token["feats"], token["misc"])
 
 
@@ -130,7 +133,7 @@ for tokenlist in conllu.parse_incr(data_file):
 # MAKE SURE TO CHECK PART OF SPEECH BEFORE SENDING LEMMA
 # (token["VerbType"] !='Quasi')
 
-                    if adj_check:
+                    if (isvdeclined == 0) and adj_check:
                         test = try_inflect("adj",token,morph,isvword,processed_token_feats,token_upos_fixed)
                         
                         if test !=[]:
@@ -162,12 +165,18 @@ for tokenlist in conllu.parse_incr(data_file):
                         
                         if test !=[]:
                             token["form"] = test
-                            if isvword["partOfSpeech"].startswit("f."):                                
+                            if isvword["partOfSpeech"].startswith("f."):                                
                                 token["feats"]["Gender"]= "Fem"
-                            if isvword["partOfSpeech"].startswit("m."):                                
+                                token["feats"]["Changed_Gender"] = 'True'
+                                inflects_dict["changed_gender"] +=1
+                            if isvword["partOfSpeech"].startswith("m."):                                
                                 token["feats"]["Gender"]= "Masc"
-                            if isvword["partOfSpeech"].startswit("n."):                                
+                                token["feats"]["Changed_Gender"] = 'True'
+                                inflects_dict["changed_gender"] +=1
+                            if isvword["partOfSpeech"].startswith("n."):                                
                                 token["feats"]["Gender"]= "Neut"
+                                token["feats"]["Changed_Gender"] = 'True'
+                                inflects_dict["changed_gender"] +=1
                                 
                             isvdeclined = 1
                         else: 
@@ -201,8 +210,82 @@ for tokenlist in conllu.parse_incr(data_file):
 
             if isvdeclined == 1:
                 inflects_dict["total_isv"]["good"] +=1
+            if isvdeclined == 0:
+                inflects_dict["total_isv"]["bad"] +=1
 
-    if ((inflects_dict["total_isv"]["good"] + inflects_dict["proper_nouns"]) /inflects_dict["total"]["good"]) > 0.5:
+
+#WHOLE TOKENLIST PROCESSING POST INDIVIDUAL TOKEN PROCESSING
+
+    for token in tokenlist:
+      if isinstance(token["id"], int):  
+#        print(token["deps"], token["id"])
+        for dep in token["deps"]:
+            if dep[0]=='amod':
+              print(token)
+              first_hit = tokenlist[dep[1]-1]
+              
+            try:  
+              if (first_hit["upos"] != 'ADP') and (token["feats"]["Gender"] != first_hit["feats"]["Gender"]):
+                token["feats"]["Gender"] = first_hit["feats"]["Gender"]
+                token["feats"]["Changed_Gender"] = 'True'
+ 
+                try:
+                    processed_token_feats = translation_aux.UDFeats2OpenCorpora(token["feats"], "pl")
+                    token["feats"]["OpenC"] = repr(processed_token_feats)
+                    token_upos_fixed = translation_aux.UDPos2OpenCorpora(token["upos"].lower())
+                    token["form"] = translation_aux.inflect_carefully(morph, token["lemma"], processed_token_feats, pos=token_upos_fixed)[0]
+                    token["feats"]["GENDER_REASSIGNMENT"] = 'SUCC'
+                except:
+                    token["feats"]["GENDER_REASSIGNMENT"] = 'FAIL'
+                    failed_inflects_set.add(token_lemma_original)
+                    
+              if (first_hit["upos"] == 'ADP'):
+                          for dep2 in first_hit["deps"]:
+                              if dep2[0]=='case':
+                                  second_hit = tokenlist[dep2[1]-1]            
+                                  try:
+                                    processed_token_feats = translation_aux.UDFeats2OpenCorpora(token["feats"], "pl")
+                                    token["feats"]["OpenC"] = repr(processed_token_feats)
+                                    token_upos_fixed = translation_aux.UDPos2OpenCorpora(token["upos"].lower())
+                                    token["form"] = translation_aux.inflect_carefully(morph, token["lemma"], processed_token_feats, pos=token_upos_fixed)[0]
+                                    token["feats"]["GENDER_REASSIGNMENT"] = 'SUCC'
+                                  except:
+                                    token["feats"]["GENDER_REASSIGNMENT"] = 'FAIL'
+                                    failed_inflects_set.add(token_lemma_original)
+                                    
+            except:
+                   pass
+
+                                    
+                                                
+                                                
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                                  
+                  
+
+                        
+                                
+
+
+
+
+#FINAL SERIALIZATION
+    if ((inflects_dict["total_isv"]["good"]) /inflects_dict["total"]["good"]) > 0.5:
+        print(((inflects_dict["total_isv"]["good"]) /inflects_dict["total"]["good"]))
         with open("isv_polish.conllu", 'a') as g:
             g.write(tokenlist.serialize())
 
