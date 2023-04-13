@@ -6,6 +6,8 @@ from translation_aux import inflect_carefully, UDFeats2OpenCorpora, infer_pos, i
 
 from rapidfuzz.string_metric import levenshtein
 from isv_nlp_utils.normalizacija import transliterate_cyr2lat
+from isv_nlp_utils.normalizacija import transliterate_cyr2lat
+from isv_nlp_utils.constants import PL_ETM_SUBS
 
 import conllu
 import requests
@@ -114,8 +116,12 @@ def prepare_parsing(text, model_name):
 
 
 def reverse_flavorize(word, pos, feats, src_lang):
-    pass
+    if src_lang == 'pl':
+        dic = PL_ETM_SUBS
+        for i, j in dic.items():
+            word = word.replace(i, j)
     return word
+        
 
 
 def special_case(token_row_data, src_lang):

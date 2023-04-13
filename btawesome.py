@@ -1,10 +1,7 @@
 import sys
 import os
 PATH = os.path.dirname(sys.argv[0])
-print(PATH)
-mypath=os.path.join(PATH,"isv_data_gathering\\")
-print(mypath)
-sys.path.append("/home/meow/dev/isv_data_gathering/")
+sys.path.append("/home/meow/mytest/isv_data_gathering/")
 #"home/meow/dev/isv_data_gathering/"
 #FIX THIS WEIRD PATH STUFF
 import conllu
@@ -36,12 +33,14 @@ from isv_nlp_utils.slovnik import get_slovnik, prepare_slovnik
 dfs = get_slovnik()
 slovnik = dfs['words']
 prepare_slovnik(slovnik)
+#print(slovnik)
 etm_morph = constants.create_etm_analyzer(PATH)
 
-sent = "lubię brati ryby z beczki."
+sent = "Północna Algieria leży w strefie umiarkowanej i cieszy się łagodnym, śródziemnomorskim klimatem."
 lang = "pl"
 
 parsed = it.prepare_parsing(sent, lang)
+print(parsed)
 udpipe_details = it.translate_sentence(parsed, lang, slovnik, etm_morph)
 
 print(udpipe_details.translation_candidates.values.tolist())

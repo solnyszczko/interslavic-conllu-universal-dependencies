@@ -30,5 +30,7 @@ print(translation_aux.inflect_carefully(morph, "posvętiti", {'perf', 'pssv', 'p
 #w 2007 r., loc
 #z iz ze
 #się	sę	PRON
+#5	domorodnoj	domorodny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|OpenC={'femn', 'sing', 'loct'}|Changed_Gender=True	4	amod	4:amod	_
+#do linii lotniczej.
 
 

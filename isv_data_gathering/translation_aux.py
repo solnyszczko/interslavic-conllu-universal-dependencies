@@ -60,7 +60,7 @@ def UDFeats2OpenCorpora(feats, src_lang):
             if value.lower() == 'fut': value ='futr'
             result.append(value.lower())
         if key == 'Person':
-            if value.lower() =='0': result.append("pssv")#FIXW
+            if value.lower() =='0': result.append("pssv")#0pers(impersonal in ukrainian and polish) is rather similar to the past passive participle, this is mainly an approximation
             result.append(value.lower() + 'per')
         if key == 'Aspect':
             if value.lower() == "imp": 

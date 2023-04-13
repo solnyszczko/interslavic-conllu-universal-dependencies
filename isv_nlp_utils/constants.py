@@ -34,6 +34,14 @@ ETM_DIACR_SUBS = {
 }
 
 
+PL_ETM_SUBS = {
+    'cz': 'č', 'sz':'š','ie':'ě','rz':'r',
+    
+    
+    
+} #skipping dz because its etymology in words is obscured i.e dział vs dzwon
+
+
 ALPHABET_LETTERS = {
     'lat': "abcdefghijklmnoprstuvyzěčšž",
     'cyr': "абвгдежзиклмнопрстуфхцчшыєјљњ",
